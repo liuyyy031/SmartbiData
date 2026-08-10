@@ -4,13 +4,13 @@
 
 ## 1. 直接使用
 
-团队日常空间分析优先使用：
+日常空间分析优先使用：
 
 ```text
 data/boundary/processed/gx_county_boundary_projected.gpkg
 ```
 
-该文件包含 111 个县级行政单元，属性字段与标准化边界一致，geometry 有效，坐标单位为 metre。
+该文件包含 111 个县级行政单元，属性字段与标准化边界一致，geometry 有效，坐标单位为 meter。
 
 需要与国内 CGCS2000 经纬度数据交换时使用：
 
@@ -199,12 +199,3 @@ data/boundary/processed/gx_county_boundary_projected.gpkg
 ```
 
 因此不要单独修改这两个文件；若重新选择 CRS 或重新生成投影边界，必须重新运行 Task_5 并检查网格 ID 是否发生变化。
-
-## 10. 不可随意修改
-
-- 不覆盖 `data/boundary/raw/`；
-- 不在 EPSG:4490 下计算米制距离或面积；
-- 不把分析 CRS 偷换为 WGS84 UTM；
-- 不静默修复 geometry；
-- 不用县名或行号替代行政代码；
-- 不修改 `spatial_crs.json` 后继续沿用旧网格。
