@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "grid_definition": {
+    "grid_name": "Guangxi 1km Spatial Grid",
+    "grid_version": "1.0",
+    "grid_size_m": 1000,
+    "origin_snap_m": 100000,
+    "origin_x": -400000,
+    "origin_y": -300000,
+    "grid_shape": "square",
+    "analysis_crs_source": "config/spatial_crs.json",
+    "boundary_source": "data/boundary/processed/gx_county_boundary_projected.gpkg",
+    "grid_id_rule": "GX1K_R{row_token}_C{col_token}; non-negative indices use six zero-padded digits, negative indices use N followed by six zero-padded absolute digits",
+    "grid_id_example": "GX1K_R000003_C000014",
+    "geometry_policy": "full_square",
+    "boundary_policy": "retain cells with positive-area intersection with Guangxi and record coverage ratio"
+  },
+  "crs": {
+    "name": "Guangxi CGCS2000 Regional Albers Equal Area",
+    "epsg": null,
+    "unit": "metre"
+  },
+  "counts": {
+    "candidate_cells": 460884,
+    "retained_cells": 238998,
+    "full_cells": 233985,
+    "boundary_cells": 5013,
+    "relation_rows": 256051,
+    "cross_county_cells": 16812,
+    "cross_city_cells": 5592,
+    "counties": 111,
+    "cities": 14
+  },
+  "geometry": {
+    "invalid": 0,
+    "empty": 0,
+    "non_polygon": 0,
+    "non_1000m_square": 0
+  },
+  "area_validation": {
+    "guangxi_union_area_m2": 236490789913.9629,
+    "grid_intersection_area_sum_m2": 236490789913.96802,
+    "absolute_error_m2": 0.005126953125,
+    "relative_error": 2.1679292994307406e-14,
+    "grid_relation_max_absolute_error_m2": 0.005113546620123088,
+    "county_pass_count": 111,
+    "county_count": 111,
+    "county_max_absolute_error_m2": 4.76837158203125e-06
+  },
+  "problems": {
+    "duplicate_grid_id": 0,
+    "duplicate_row_col": 0,
+    "invalid_coverage_ratio": 0,
+    "missing_relation": 0,
+    "missing_primary_county": 0,
+    "unknown_county_codes": []
+  },
+  "checks": {
+    "unique_grid_id": true,
+    "unique_row_col": true,
+    "geometry_valid": true,
+    "full_square_geometry": true,
+    "coverage_ratio_valid": true,
+    "all_grids_have_relation": true,
+    "all_grids_have_primary_county": true,
+    "county_codes_valid": true,
+    "grid_relation_area_consistent": true,
+    "guangxi_area_conserved": true,
+    "all_county_areas_conserved": true
+  },
+  "geometry_modified": false,
+  "grid_geometry_clipped": false
+}

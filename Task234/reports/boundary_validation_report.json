@@ -1,0 +1,444 @@
+{
+  "source_file": "F:\\Desktop\\链时代\\projects\\06挑战杯\\任务处理\\Task234\\data\\boundary\\raw\\广西壮族自治区_县.geojson",
+  "source_crs": "EPSG:4490",
+  "output_crs": "EPSG:4490",
+  "coordinate_transformed": false,
+  "geometry_modified": false,
+  "geometry_repaired": false,
+  "feature_count": 111,
+  "source_inspection": {
+    "feature_count": 111,
+    "fields": [
+      "name",
+      "gb",
+      "geometry"
+    ],
+    "crs": "EPSG:4490",
+    "bounds": [
+      104.446538,
+      21.018748,
+      112.0569,
+      26.386391
+    ],
+    "geometry_types": {
+      "MultiPolygon": 111
+    },
+    "empty_geometry": 0,
+    "null_geometry": 0,
+    "invalid_geometry": 0,
+    "missing_name": 0,
+    "missing_gb": 0,
+    "duplicate_name_rows": 0,
+    "duplicate_gb_rows": 0
+  },
+  "geometry": {
+    "empty": 0,
+    "null": 0,
+    "invalid_before": 0,
+    "invalid_after": 0,
+    "geometry_repaired": false,
+    "polygon": 0,
+    "multipolygon": 111,
+    "other": 0,
+    "overlap_area_tolerance_square_degrees_approx": 1e-10,
+    "topology_overlap_count": 0,
+    "topology_overlaps": []
+  },
+  "attributes": {
+    "missing_name": 0,
+    "missing_gb": 0,
+    "missing_adcode": 0,
+    "duplicate_name_rows": 0,
+    "duplicate_gb_rows": 0,
+    "duplicate_adcode_rows": 0,
+    "duplicate_adcodes": [],
+    "gb_parse_error_count": 0,
+    "gb_parse_errors": []
+  },
+  "administrative_structure": {
+    "province_count": 1,
+    "city_count": 14,
+    "county_count": 111,
+    "unmatched_city": 0,
+    "all_14_city_codes_present": true,
+    "missing_city_codes": [],
+    "unexpected_city_codes": [],
+    "county_count_by_city": [
+      {
+        "city_adcode": "450100",
+        "city_name": "南宁市",
+        "county_count": 12
+      },
+      {
+        "city_adcode": "450200",
+        "city_name": "柳州市",
+        "county_count": 10
+      },
+      {
+        "city_adcode": "450300",
+        "city_name": "桂林市",
+        "county_count": 17
+      },
+      {
+        "city_adcode": "450400",
+        "city_name": "梧州市",
+        "county_count": 7
+      },
+      {
+        "city_adcode": "450500",
+        "city_name": "北海市",
+        "county_count": 4
+      },
+      {
+        "city_adcode": "450600",
+        "city_name": "防城港市",
+        "county_count": 4
+      },
+      {
+        "city_adcode": "450700",
+        "city_name": "钦州市",
+        "county_count": 4
+      },
+      {
+        "city_adcode": "450800",
+        "city_name": "贵港市",
+        "county_count": 5
+      },
+      {
+        "city_adcode": "450900",
+        "city_name": "玉林市",
+        "county_count": 7
+      },
+      {
+        "city_adcode": "451000",
+        "city_name": "百色市",
+        "county_count": 12
+      },
+      {
+        "city_adcode": "451100",
+        "city_name": "贺州市",
+        "county_count": 5
+      },
+      {
+        "city_adcode": "451200",
+        "city_name": "河池市",
+        "county_count": 11
+      },
+      {
+        "city_adcode": "451300",
+        "city_name": "来宾市",
+        "county_count": 6
+      },
+      {
+        "city_adcode": "451400",
+        "city_name": "崇左市",
+        "county_count": 7
+      }
+    ]
+  },
+  "city_validation": {
+    "performed": true,
+    "reference_feature_count": 14,
+    "reference_city_codes": [
+      "450100",
+      "450200",
+      "450300",
+      "450400",
+      "450500",
+      "450600",
+      "450700",
+      "450800",
+      "450900",
+      "451000",
+      "451100",
+      "451200",
+      "451300",
+      "451400"
+    ],
+    "missing_expected_city_codes": [],
+    "unexpected_city_codes": [],
+    "area_metric_note": "Angular CRS indicator only; not m² or km².",
+    "results": [
+      {
+        "city_name": "南宁市",
+        "city_adcode": "450100",
+        "county_count": 12,
+        "reference_feature_count": 1,
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "city_name": "柳州市",
+        "city_adcode": "450200",
+        "county_count": 10,
+        "reference_feature_count": 1,
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "city_name": "桂林市",
+        "city_adcode": "450300",
+        "county_count": 17,
+        "reference_feature_count": 1,
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "city_name": "梧州市",
+        "city_adcode": "450400",
+        "county_count": 7,
+        "reference_feature_count": 1,
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "city_name": "北海市",
+        "city_adcode": "450500",
+        "county_count": 4,
+        "reference_feature_count": 1,
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "city_name": "防城港市",
+        "city_adcode": "450600",
+        "county_count": 4,
+        "reference_feature_count": 1,
+        "geometry_equal": false,
+        "symmetric_difference_square_degrees_approx": 1.875999995565051e-09,
+        "relative_symmetric_difference": 3.5746534781327813e-09,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "city_name": "钦州市",
+        "city_adcode": "450700",
+        "county_count": 4,
+        "reference_feature_count": 1,
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "city_name": "贵港市",
+        "city_adcode": "450800",
+        "county_count": 5,
+        "reference_feature_count": 1,
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "city_name": "玉林市",
+        "city_adcode": "450900",
+        "county_count": 7,
+        "reference_feature_count": 1,
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "city_name": "百色市",
+        "city_adcode": "451000",
+        "county_count": 12,
+        "reference_feature_count": 1,
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "city_name": "贺州市",
+        "city_adcode": "451100",
+        "county_count": 5,
+        "reference_feature_count": 1,
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "city_name": "河池市",
+        "city_adcode": "451200",
+        "county_count": 11,
+        "reference_feature_count": 1,
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "city_name": "来宾市",
+        "city_adcode": "451300",
+        "county_count": 6,
+        "reference_feature_count": 1,
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "city_name": "崇左市",
+        "city_adcode": "451400",
+        "county_count": 7,
+        "reference_feature_count": 1,
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      }
+    ]
+  },
+  "nanning_validation": {
+    "performed": true,
+    "guangxi_subset_count": 12,
+    "reference_count": 12,
+    "count_equal": true,
+    "name_set_equal": true,
+    "adcode_set_equal": true,
+    "all_geometries_equal": true,
+    "all_geometries_basic_match": true,
+    "geometry_results": [
+      {
+        "adcode": "450102",
+        "name": "兴宁区",
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "adcode": "450103",
+        "name": "青秀区",
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "adcode": "450105",
+        "name": "江南区",
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "adcode": "450107",
+        "name": "西乡塘区",
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "adcode": "450108",
+        "name": "良庆区",
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "adcode": "450109",
+        "name": "邕宁区",
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "adcode": "450110",
+        "name": "武鸣区",
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "adcode": "450123",
+        "name": "隆安县",
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "adcode": "450124",
+        "name": "马山县",
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "adcode": "450125",
+        "name": "上林县",
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "adcode": "450126",
+        "name": "宾阳县",
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      },
+      {
+        "adcode": "450181",
+        "name": "横州市",
+        "geometry_equal": true,
+        "symmetric_difference_square_degrees_approx": 0.0,
+        "relative_symmetric_difference": 0.0,
+        "geometry_basic_match": true,
+        "basic_match_relative_tolerance": 1e-08
+      }
+    ]
+  },
+  "notes": [
+    "No coordinate transformation was performed.",
+    "No geometry repair was performed."
+  ],
+  "status": "PASS",
+  "failures": []
+}
