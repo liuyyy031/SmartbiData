@@ -1,0 +1,50 @@
+{
+  "target_count": 86,
+  "nanning_target_count": 67,
+  "liuzhou_target_count": 19,
+  "already_had_address_count": 20,
+  "address_enriched_count": 10,
+  "geocoding_success_count": 26,
+  "nanning_geocoding_success_count": 23,
+  "liuzhou_geocoding_success_count": 3,
+  "geocoding_high_confidence_count": 7,
+  "geocoding_medium_confidence_count": 19,
+  "manual_review_count": 59,
+  "failed_count": 1,
+  "physical_site_success_count": 0,
+  "organization_success_count": 23,
+  "provider_distribution": {
+    "amap": 26
+  },
+  "coordinate_system_distribution": {
+    "GCJ02": 26
+  },
+  "api_request_count": 91,
+  "cache_hit_count": 8,
+  "api_key_configured": true,
+  "unresolved_critical_nodes": [
+    "南宁市储备粮管理有限责任公司五象粮库",
+    "南宁市储备粮管理有限责任公司沙井粮库",
+    "南宁市邕宁区粮食储备库",
+    "南宁市江丰粮食收储管理中心",
+    "横州市六景粮食储备中心库",
+    "马山县储备粮管理公司",
+    "隆安县储备粮管理公司",
+    "上林县安恒储备粮管理有限公司",
+    "广西壮族自治区五象粮食储备库有限公司",
+    "广西壮族自治区南宁粮食储备库有限公司",
+    "柳州市五里卡粮库有限公司",
+    "广西柳州黄村粮食储备库有限公司",
+    "广西壮族自治区柳州粮食储备库有限公司",
+    "柳城县金稻香粮食收储有限责任公司",
+    "柳州市柳江区柳粮粮油有限公司",
+    "融水苗族自治县储备粮管理公司",
+    "三江侗族自治县粮食购销和储备粮管理中心",
+    "融安县储备粮管理公司"
+  ],
+  "validation_errors": [],
+  "validation_warnings": [
+    "60 条记录需要人工复核或后续重试。"
+  ],
+  "validation_status": "WARN"
+}

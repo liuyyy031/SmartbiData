@@ -1,0 +1,53 @@
+{
+  "raw_file_count": 55,
+  "parsed_file_count": 8,
+  "failed_file_count": 0,
+  "ancillary_file_count": 47,
+  "raw_record_count": 1566,
+  "candidate_count": 1243,
+  "primary_nanning_count": 67,
+  "secondary_liuzhou_count": 19,
+  "reserve_guangxi_count": 458,
+  "external_count": 699,
+  "node_type_distribution": {
+    "agricultural_wholesale_market": 663,
+    "grain_reserve": 223,
+    "government_procurement_supplier": 163,
+    "other": 81,
+    "grain_depot": 58,
+    "emergency_processing": 28,
+    "military_grain_supply": 26,
+    "emergency_storage_transport": 1
+  },
+  "evidence_level_distribution": {
+    "A": 1030,
+    "C": 146,
+    "B": 67
+  },
+  "records_with_address": 125,
+  "records_with_credit_code": 125,
+  "records_with_coordinates": 0,
+  "duplicate_merged_count": 323,
+  "duplicate_review_count": 49,
+  "reserve_html_record_count": 366,
+  "expected_nanning_reserve_records": 38,
+  "nanning_reserve_record_count": 38,
+  "expected_liuzhou_reserve_records": 16,
+  "liuzhou_reserve_record_count": 16,
+  "autonomous_region_direct_record_count": 18,
+  "nanning_grain_depot_count": 7,
+  "nanning_grain_reserve_count": 31,
+  "nanning_military_grain_count": 0,
+  "liuzhou_grain_depot_count": 4,
+  "liuzhou_grain_reserve_count": 7,
+  "liuzhou_military_grain_count": 3,
+  "correct_national_emergency_file_detected": true,
+  "duplicate_raw_file_groups": [],
+  "parse_errors": [],
+  "validation_errors": [],
+  "validation_warnings": [
+    "1118 个 candidate 缺少地址；主要来自仅含名称的官方名单或未提供地址的采购表。",
+    "49 对疑似重复或组织/设施层级关系需要人工复核。"
+  ],
+  "validation_status": "WARN"
+}

@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-08-10T21:27:17+08:00",
+  "expected_evidence_records": 13,
+  "actual_evidence_records": 13,
+  "evidence_record_count": 13,
+  "existing_candidate_match_count": 8,
+  "new_physical_site_count": 5,
+  "door_number_evidence_count": 8,
+  "door_number_geocoding_success_count": 6,
+  "door_number_geocoding_failed_count": 2,
+  "street_level_evidence_count": 3,
+  "region_level_evidence_count": 2,
+  "geocoding_success_count": 7,
+  "high_confidence_count": 5,
+  "medium_confidence_count": 2,
+  "manual_review_count": 6,
+  "failed_count": 6,
+  "spatial_ready_count": 7,
+  "physical_site_count": 13,
+  "physical_site_located_count": 7,
+  "api_request_count": 0,
+  "cache_hit_count": 29,
+  "coordinate_system_distribution": {
+    "GCJ02": 7
+  },
+  "organization_physical_site_mismatch_count": 0,
+  "traceability_complete": true,
+  "api_key_leak_detected": false,
+  "core_node_status": [
+    {
+      "name": "南宁市储备粮管理有限责任公司五象粮库",
+      "geocoding_status": "success",
+      "geocoding_confidence": "high",
+      "spatial_ready": "true"
+    },
+    {
+      "name": "南宁市储备粮管理有限责任公司沙井粮库",
+      "geocoding_status": "success",
+      "geocoding_confidence": "high",
+      "spatial_ready": "true"
+    },
+    {
+      "name": "南宁市江丰粮食收储管理中心",
+      "geocoding_status": "approximate_region_only",
+      "geocoding_confidence": "manual_review",
+      "spatial_ready": "false"
+    },
+    {
+      "name": "隆安县粮食收储有限责任公司古潭仓储点",
+      "geocoding_status": "approximate_region_only",
+      "geocoding_confidence": "manual_review",
+      "spatial_ready": "false"
+    },
+    {
+      "name": "上林县安恒储备粮管理有限公司澄泰分公司1号仓库",
+      "geocoding_status": "success",
+      "geocoding_confidence": "high",
+      "spatial_ready": "true"
+    },
+    {
+      "name": "上林县安恒储备粮管理有限公司塘红分公司仓库",
+      "geocoding_status": "success",
+      "geocoding_confidence": "high",
+      "spatial_ready": "true"
+    },
+    {
+      "name": "广西壮族自治区南宁粮食储备库有限公司",
+      "geocoding_status": "success",
+      "geocoding_confidence": "high",
+      "spatial_ready": "true"
+    }
+  ],
+  "unlocated_nodes": [
+    "南宁市江丰粮食收储管理中心",
+    "马山县储备粮管理公司周鹿镇粮油网点19号仓库",
+    "隆安县粮食收储有限责任公司古潭仓储点",
+    "上林县安恒储备粮管理有限公司三里分公司",
+    "上林县安恒储备粮管理有限公司乔贤分公司",
+    "上林县安恒储备粮管理有限公司镇圩分公司"
+  ],
+  "READY_FOR_CRS": true,
+  "validation_status": "PASS",
+  "validation_notes": [],
+  "before_spatial_ready": 5,
+  "after_spatial_ready": 7,
+  "door_number_review_target_count": 4,
+  "door_number_rescued_count": 2,
+  "door_number_review_api_request_count": 0,
+  "door_number_review_cache_hit_count": 10,
+  "door_number_review_results": [
+    {
+      "candidate_id": "cand_51a15c6a164e752f",
+      "name": "南宁市储备粮管理有限责任公司沙井粮库",
+      "before_spatial_ready": "false",
+      "after_spatial_ready": "true",
+      "final_status": "success",
+      "final_confidence": "high",
+      "selected_location": "108.268884,22.792138",
+      "reason": "唯一门牌强匹配候选通过逆地理行政区/道路复核。"
+    },
+    {
+      "candidate_id": "cand_e668195854f37fbc",
+      "name": "南宁市邕宁区粮食储备库",
+      "before_spatial_ready": "false",
+      "after_spatial_ready": "true",
+      "final_status": "success",
+      "final_confidence": "medium",
+      "selected_location": "108.490651,22.754693",
+      "reason": "唯一门牌强匹配候选通过逆地理行政区/道路复核。"
+    },
+    {
+      "candidate_id": "cand_327043fd258fdf09",
+      "name": "南宁市江丰粮食收储管理中心",
+      "before_spatial_ready": "false",
+      "after_spatial_ready": "false",
+      "final_status": "approximate_region_only",
+      "final_confidence": "manual_review",
+      "selected_location": "",
+      "reason": "未找到目标区县+道路+门牌号完整匹配的精细候选；仅保留区域诊断，不写入坐标。"
+    },
+    {
+      "candidate_id": "cand_6bf78224f7bb71c7",
+      "name": "隆安县粮食收储有限责任公司古潭仓储点",
+      "before_spatial_ready": "false",
+      "after_spatial_ready": "false",
+      "final_status": "approximate_region_only",
+      "final_confidence": "manual_review",
+      "selected_location": "",
+      "reason": "未找到目标区县+道路+门牌号完整匹配的精细候选；仅保留区域诊断，不写入坐标。"
+    }
+  ]
+}

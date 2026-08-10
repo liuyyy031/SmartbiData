@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://fe.faisco.cn/hawkEye/crash.jsp -->
+<html data-immersive-translate-page-theme="light"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style data-id="immersive-translate-input-injected-css"></style></head><body>
+<script type="text/javascript">
+if (navigator.serviceWorker && parent.postMessage) {
+	navigator.serviceWorker.register('./service-worker.js')
+		.then(function (reg) {
+			// console.log('connect serviceWorker success');
+			window.addEventListener('message',  function (e) {
+				if (navigator.serviceWorker.controller !== null) {
+			    	navigator.serviceWorker.controller.postMessage(e.data);
+				}
+			});
+
+      navigator.serviceWorker.addEventListener('message', function(e) {
+        window.parent.postMessage(e.data, '*');
+      });
+		})
+		.catch(function (err) {
+	    	console.log('connect serviceWorker fail', err);
+	  });
+ }
+</script>
+
+</body></html>
