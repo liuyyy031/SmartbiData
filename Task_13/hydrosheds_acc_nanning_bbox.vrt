@@ -1,0 +1,29 @@
+<VRTDataset rasterXSize="24000" rasterYSize="12000">
+  <SRS dataAxisToSRSAxisMapping="2,1">GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform>  1.0000000000000000e+02,  8.3333333333333339e-04,  0.0000000000000000e+00,  2.9999999999999993e+01,  0.0000000000000000e+00, -8.3333333333333274e-04</GeoTransform>
+  <VRTRasterBand dataType="UInt32" band="1">
+    <Metadata>
+      <MDI key="BandName">Band_1</MDI>
+      <MDI key="RepresentationType">ATHEMATIC</MDI>
+    </Metadata>
+    <Description>Band_1</Description>
+    <NoDataValue>4294967295</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">D:\SmartBI\data\raw\river\N20E100_acc\N20E100_acc.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="12000" RasterYSize="12000" DataType="UInt32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="12000" ySize="12000" />
+      <DstRect xOff="0" yOff="0" xSize="12000" ySize="12000" />
+      <NODATA>4294967295</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">D:\SmartBI\data\raw\river\N20E110_acc\N20E110_acc.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="12000" RasterYSize="12000" DataType="UInt32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="12000" ySize="12000" />
+      <DstRect xOff="12000" yOff="0" xSize="12000" ySize="12000" />
+      <NODATA>4294967295</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
