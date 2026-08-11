@@ -1,0 +1,9 @@
+# 默认所有 gpkg 走 LFS
+*.gpkg filter=lfs diff=lfs merge=lfs -text
+
+# 以下已有文件不走 LFS
+Task_05/data/grid/gx_grid_1km.gpkg !filter !diff !merge !text
+Task_06/data/boundary/processed/gx_county_boundary.gpkg !filter !diff !merge !text
+Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg !filter !diff !merge !text
+Task_11/data/processed/nanning_grain_physical_sites.gpkg !filter !diff !merge !text
+Task_11/data/processed/nanning_grain_spatial_nodes.gpkg !filter !diff !merge !text
