@@ -1,0 +1,61 @@
+{
+  "task": "Task_14",
+  "source_archive_count": 7,
+  "source_product": "ASTER GDEM V3",
+  "resampling": "bilinear",
+  "mask_rule": "Task_01南宁市边界内保留，边界外设为-9999",
+  "horizontal_reprojection": true,
+  "vertical_datum_transformation": false,
+  "vertical_reference_policy": "沿用ASTER源高程含义；源文件未编码垂直CRS",
+  "hydrological_conditioning": false,
+  "slope_generated": false,
+  "output": {
+    "file": "Task_14/data/processed/nanning_dem_30m_albers.tif",
+    "file_size_bytes": 25361112,
+    "file_size_limit_bytes": 99614720,
+    "snapped_output_bounds": [
+      -94920.0,
+      -165630.0,
+      140310.0,
+      36720.0
+    ],
+    "driver": "GTiff",
+    "width": 7841,
+    "height": 6745,
+    "count": 1,
+    "dtype": "int16",
+    "crs": "PROJCS[\"Guangxi CGCS2000 Regional Albers Equal Area\",GEOGCS[\"China Geodetic Coordinate System 2000\",DATUM[\"China_2000\",SPHEROID[\"CGCS2000\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"1024\"]],AUTHORITY[\"EPSG\",\"1043\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4490\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",23.7025695],PARAMETER[\"longitude_of_center\",108.251719],PARAMETER[\"standard_parallel_1\",21.9133551666667],PARAMETER[\"standard_parallel_2\",25.4917838333333],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "crs_name": "Guangxi CGCS2000 Regional Albers Equal Area",
+    "resolution": [
+      30.0,
+      30.0
+    ],
+    "bounds": [
+      -94920.0,
+      -165630.0,
+      140310.0,
+      36720.0
+    ],
+    "nodata": -9999.0,
+    "valid_pixel_count": 24550563,
+    "nodata_pixel_count": 28336982,
+    "minimum_m": 1,
+    "maximum_m": 1737,
+    "mean_m": 191.38197417305665,
+    "standard_deviation_m": 150.9083036465996,
+    "image_structure": {
+      "LAYOUT": "COG",
+      "COMPRESSION": "DEFLATE",
+      "INTERLEAVE": "BAND",
+      "OVERVIEW_RESAMPLING": "AVERAGE",
+      "PREDICTOR": "2"
+    },
+    "overview_factors": [
+      2,
+      4,
+      8,
+      16
+    ]
+  },
+  "status": "PASS"
+}

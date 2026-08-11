@@ -1,0 +1,17 @@
+name: smartbi-gis
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - gdal
+  - rasterio
+  - geopandas
+  - pyogrio
+  - shapely
+  - pyproj
+  - numpy
+  - pandas
+  - openpyxl
+  - matplotlib
+  - rasterstats

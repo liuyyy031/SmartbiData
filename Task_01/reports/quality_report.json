@@ -1,0 +1,171 @@
+{
+  "task": "Task_01",
+  "dataset": "南宁市县级行政区划",
+  "generated_at_utc": "2026-08-11T10:50:31.929670+00:00",
+  "source": {
+    "geographic_file": "Task_06/data/boundary/processed/gx_county_boundary.gpkg",
+    "geographic_sha256": "7ecd2c8be8196b12b28c9514f1c91be1ec90c99619e383428f0269015e29c435",
+    "projected_file": "Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg",
+    "projected_sha256": "f868d9733a95aa755852a98689d6fd632d5aec011395bf0a028bc09f75fa5225",
+    "spatial_config": "Task_06/config/spatial_crs.json",
+    "spatial_config_sha256": "f416fcdc5d868b0645b5067e6569ef81d70fe4103cdc1e97cfa9c379f75bc5ab",
+    "selection_rule": "city_adcode == 450100"
+  },
+  "expected": {
+    "feature_count": 12,
+    "county_adcodes": [
+      "450102",
+      "450103",
+      "450105",
+      "450107",
+      "450108",
+      "450109",
+      "450110",
+      "450123",
+      "450124",
+      "450125",
+      "450126",
+      "450181"
+    ],
+    "geographic_crs": "EPSG:4490",
+    "projected_crs": "Guangxi CGCS2000 Regional Albers Equal Area"
+  },
+  "outputs": {
+    "geographic_gpkg": {
+      "feature_count": 12,
+      "crs": "EPSG:4490",
+      "bounds": [
+        107.324739,
+        22.207684,
+        109.617454,
+        24.033758
+      ],
+      "columns": [
+        "province_name",
+        "province_adcode",
+        "city_name",
+        "city_adcode",
+        "county_name",
+        "county_adcode",
+        "name",
+        "adcode",
+        "gb",
+        "geometry"
+      ],
+      "geometry_types": {
+        "MultiPolygon": 12
+      },
+      "empty_geometry_count": 0,
+      "null_geometry_count": 0,
+      "invalid_geometry_count": 0,
+      "duplicate_county_adcode_count": 0,
+      "county_adcodes": [
+        "450102",
+        "450103",
+        "450105",
+        "450107",
+        "450108",
+        "450109",
+        "450110",
+        "450123",
+        "450124",
+        "450125",
+        "450126",
+        "450181"
+      ]
+    },
+    "geographic_geojson": {
+      "feature_count": 12,
+      "crs": "EPSG:4490",
+      "bounds": [
+        107.324739,
+        22.207684,
+        109.617454,
+        24.033758
+      ],
+      "columns": [
+        "province_name",
+        "province_adcode",
+        "city_name",
+        "city_adcode",
+        "county_name",
+        "county_adcode",
+        "name",
+        "adcode",
+        "gb",
+        "geometry"
+      ],
+      "geometry_types": {
+        "MultiPolygon": 12
+      },
+      "empty_geometry_count": 0,
+      "null_geometry_count": 0,
+      "invalid_geometry_count": 0,
+      "duplicate_county_adcode_count": 0,
+      "county_adcodes": [
+        "450102",
+        "450103",
+        "450105",
+        "450107",
+        "450108",
+        "450109",
+        "450110",
+        "450123",
+        "450124",
+        "450125",
+        "450126",
+        "450181"
+      ]
+    },
+    "projected_gpkg": {
+      "feature_count": 12,
+      "crs": "Guangxi CGCS2000 Regional Albers Equal Area",
+      "bounds": [
+        -94899.9857085999,
+        -165609.85353085052,
+        140295.24138053638,
+        36707.45671558868
+      ],
+      "columns": [
+        "province_name",
+        "province_adcode",
+        "city_name",
+        "city_adcode",
+        "county_name",
+        "county_adcode",
+        "name",
+        "adcode",
+        "gb",
+        "geometry"
+      ],
+      "geometry_types": {
+        "MultiPolygon": 12
+      },
+      "empty_geometry_count": 0,
+      "null_geometry_count": 0,
+      "invalid_geometry_count": 0,
+      "duplicate_county_adcode_count": 0,
+      "county_adcodes": [
+        "450102",
+        "450103",
+        "450105",
+        "450107",
+        "450108",
+        "450109",
+        "450110",
+        "450123",
+        "450124",
+        "450125",
+        "450126",
+        "450181"
+      ]
+    }
+  },
+  "cross_output_validation": {
+    "column_order_equal": true,
+    "county_adcode_sets_equal": true,
+    "maximum_projected_geometry_distance_m": 0.0,
+    "geometry_distance_tolerance_m": 0.001
+  },
+  "status": "PASS"
+}

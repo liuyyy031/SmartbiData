@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "catalog_version": "1.0",
+  "event_count": 30,
+  "direct_affected_event_count": 27,
+  "context_event_count": 3,
+  "evidence_count": 31,
+  "admin_relation_count": 33,
+  "impact_count": 86,
+  "nanning_specific_impact_count": 2,
+  "county_count": 12,
+  "explicitly_affected_county_count": 1,
+  "yearly_direct_counts": {
+    "2016": 5,
+    "2017": 5,
+    "2018": 6,
+    "2019": 2,
+    "2020": 1,
+    "2021": 4,
+    "2022": 1,
+    "2023": 3
+  },
+  "method_notes": [
+    "只将明确表述南宁受灾或为主要受灾区域的独立事件计入南宁频次。",
+    "气象、水文及邻近地区影响单独标注，不计入南宁直接受灾频次。",
+    "多市合计指标不向南宁市或县区下分。",
+    "县区零值表示现有公报未明确点名，不表示没有发生洪涝。",
+    "2024—2025年因缺少相应水旱灾害公报而保留为空值，不按零次处理。"
+  ]
+}

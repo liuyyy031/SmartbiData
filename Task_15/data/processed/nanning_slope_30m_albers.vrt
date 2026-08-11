@@ -1,0 +1,25 @@
+<VRTDataset rasterXSize="7841" rasterYSize="6745">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["Guangxi CGCS2000 Regional Albers Equal Area",GEOGCS["China Geodetic Coordinate System 2000",DATUM["China_2000",SPHEROID["CGCS2000",6378137,298.257222101004,AUTHORITY["EPSG","1024"]],AUTHORITY["EPSG","1043"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4490"]],PROJECTION["Albers_Conic_Equal_Area"],PARAMETER["latitude_of_center",23.7025695],PARAMETER["longitude_of_center",108.251719],PARAMETER["standard_parallel_1",21.9133551666667],PARAMETER["standard_parallel_2",25.4917838333333],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]</SRS>
+  <GeoTransform> -9.4920000000000000e+04,  3.0000000000000000e+01,  0.0000000000000000e+00,  3.6720000000000000e+04,  0.0000000000000000e+00, -3.0000000000000000e+01</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>-9999</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">nanning_slope_30m_albers_north.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7841" RasterYSize="3372" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="7841" ySize="3372" />
+      <DstRect xOff="0" yOff="0" xSize="7841" ySize="3372" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">nanning_slope_30m_albers_south.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7841" RasterYSize="3373" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="7841" ySize="3373" />
+      <DstRect xOff="0" yOff="3372" xSize="7841" ySize="3373" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <OverviewList resampling="nearest">2 4 8 16</OverviewList>
+</VRTDataset>

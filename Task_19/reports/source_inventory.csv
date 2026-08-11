@@ -1,0 +1,10 @@
+﻿source_year,relative_path,format,size_bytes,sha256,pdf_pages,encrypted,text_characters,nanning_hits,candidate_page_count,role
+2016,Task_19/data/raw/bulletins/2016年广西水旱灾害公报.pdf,pdf,38260241,3a92739690880cd1b6e58cb86aed497e90b08630fd790453db4548f909af0eb2,47,no,67348,23,15,canonical_pdf
+2017,Task_19/data/raw/bulletins/2017年广西水旱灾害公报.pdf,pdf,20209418,dfc5abadf9ba353343a732c7aef9ea720982959d8ca09dabf9893805cb272247,50,no,46003,15,11,canonical_pdf
+2018,Task_19/data/raw/bulletins/2018年广西水旱灾害公报.pdf,pdf,5417628,f2b7674212fbbc9f3246a32844af6e97737da9b750d52e8b07182a21f0287bf3,39,no,39703,16,10,canonical_pdf
+2019,Task_19/data/raw/bulletins/2019年广西水旱灾害公报.pdf,pdf,7669993,534a0adadbbace47c67c657983e7b7fad1ab852e36ef11d65f94e75fd98fb5b0,40,no,41702,14,11,canonical_pdf
+2020,Task_19/data/raw/bulletins/2020年广西水旱灾害公报.pdf,pdf,4080574,04da8cb5e782ea610c26a840bb4c5b5d290eec3770fa5e58bbca135cbda9e66b,41,no,50159,13,8,canonical_pdf
+2021,Task_19/data/raw/bulletins/2021年广西水旱灾害公报.pdf,pdf,1290029,bdc154d7223c6eddde98d3b6541450a905f05f58d2b2f4e54aa1ccebe519833c,46,no,58460,23,10,canonical_pdf
+2022,Task_19/data/raw/bulletins/2022年广西水旱灾害公报.pdf,pdf,2784580,08eaa928e726a4c03893085c78d3ffcabb332ab038e7cba1d184f6ca04e8b411,48,no,61817,17,11,canonical_pdf
+2022,Task_19/data/raw/bulletins/2022年广西水旱灾害公报.wps,wps,3879424,52b32b10149bc794018b576299e2066139f38971c8ef81994853865e09a6490a,,,,,,original_wps_provenance
+2023,Task_19/data/raw/bulletins/2023年广西水旱灾害公报.pdf,pdf,4717234,ad0621399d76c42f145334486eb5671c181447676cd8e454df7ad2f3f07337cf,52,no,72206,14,9,canonical_pdf

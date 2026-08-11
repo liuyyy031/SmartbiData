@@ -1,0 +1,28 @@
+{
+  "task": "Task_19",
+  "raw_file_count": 9,
+  "pdf_file_count": 8,
+  "wps_provenance_file_count": 1,
+  "raw_total_size_bytes": 88309121,
+  "pdf_page_count": 363,
+  "text_character_count": 437398,
+  "candidate_page_count": 85,
+  "neighboring_city_count": 7,
+  "neighboring_county_count": 15,
+  "available_years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "excluded_or_missing_years": [
+    2024,
+    2025
+  ],
+  "event_interpretation": "候选页不等于确认事件，必须人工复核",
+  "status": "PASS"
+}

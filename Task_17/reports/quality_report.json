@@ -1,0 +1,116 @@
+{
+  "task": "Task_17",
+  "dataset": "南宁市GlobeLand30 2020地表覆盖",
+  "source_validation_status": "PASS",
+  "build_status": "PASS",
+  "overlap_analysis_status": "PASS",
+  "raster": {
+    "file": "Task_17/data/processed/nanning_landcover_2020_30m_albers.tif",
+    "file_size_bytes": 2722215,
+    "file_size_limit_bytes": 99614720,
+    "driver": "GTiff",
+    "width": 7841,
+    "height": 6745,
+    "count": 1,
+    "dtype": "uint8",
+    "crs": "PROJCS[\"Guangxi CGCS2000 Regional Albers Equal Area\",GEOGCS[\"China Geodetic Coordinate System 2000\",DATUM[\"China_2000\",SPHEROID[\"CGCS2000\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"1024\"]],AUTHORITY[\"EPSG\",\"1043\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4490\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",23.7025695],PARAMETER[\"longitude_of_center\",108.251719],PARAMETER[\"standard_parallel_1\",21.9133551666667],PARAMETER[\"standard_parallel_2\",25.4917838333333],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "crs_name": "Guangxi CGCS2000 Regional Albers Equal Area",
+    "transform": [
+      30.0,
+      0.0,
+      -94920.0,
+      0.0,
+      -30.0,
+      36720.0
+    ],
+    "resolution": [
+      30.0,
+      30.0
+    ],
+    "bounds": [
+      -94920.0,
+      -165630.0,
+      140310.0,
+      36720.0
+    ],
+    "nodata": 0.0,
+    "color_interpretation": "palette",
+    "color_table_entry_count": 256,
+    "code_counts": {
+      "0": 28336982,
+      "10": 11147793,
+      "20": 11035013,
+      "30": 499161,
+      "40": 749,
+      "50": 2880,
+      "60": 603779,
+      "80": 1259711,
+      "90": 1477
+    },
+    "image_structure": {
+      "LAYOUT": "COG",
+      "COMPRESSION": "DEFLATE",
+      "INTERLEAVE": "BAND",
+      "OVERVIEW_RESAMPLING": "NEAREST",
+      "PREDICTOR": "2"
+    },
+    "overview_factors": [
+      2,
+      4,
+      8,
+      16
+    ]
+  },
+  "class_counts": {
+    "10": 11147793,
+    "20": 11035013,
+    "30": 499161,
+    "40": 749,
+    "50": 2880,
+    "60": 603779,
+    "70": 0,
+    "80": 1259711,
+    "90": 1477,
+    "100": 0
+  },
+  "grid_wide": {
+    "row_count": 22770,
+    "unique_grid_count": 22770,
+    "quality_flag_counts": {
+      "pass": 22695,
+      "review_coverage_ratio": 43,
+      "no_valid_pixel_center": 29,
+      "small_boundary_sliver": 3
+    },
+    "ratio_columns": [
+      "cultivated_land_ratio",
+      "forest_ratio",
+      "grass_land_ratio",
+      "shrubland_ratio",
+      "wetland_ratio",
+      "water_body_ratio",
+      "tundra_ratio",
+      "artificial_surfaces_ratio",
+      "bareland_ratio",
+      "permanent_snow_ice_ratio"
+    ]
+  },
+  "grid_long": {
+    "row_count": 227700,
+    "unique_composite_key_count": 227700
+  },
+  "county_summary": {
+    "row_count": 120,
+    "county_count": 12,
+    "unique_composite_key_count": 120,
+    "zero_valid_county_count": 0
+  },
+  "ratio_denominators": {
+    "valid_pixel_ratio": "统计区域内有效地表覆盖像元数",
+    "nanning_area_ratio": "网格与南宁市相交面积",
+    "county_area_ratio": "县区矢量面积"
+  },
+  "terminology_policy": "比赛板块称土地利用；数据产品准确表述为地表覆盖",
+  "failures": [],
+  "status": "PASS"
+}

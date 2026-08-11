@@ -1,0 +1,13 @@
+class_code,class_name_en,class_name_zh,analysis_role,hex_color,source
+0,No Value,无值,nodata,#000000,GlobeLand30 2020 MAT metadata
+10,Cultivated Land,耕地,analysis_class,#FAA0FF,GlobeLand30 2020 MAT metadata
+20,Forest,林地,analysis_class,#006400,GlobeLand30 2020 MAT metadata
+30,Grass Land,草地,analysis_class,#64FF00,GlobeLand30 2020 MAT metadata
+40,Shrubland,灌木地,analysis_class,#00FF78,GlobeLand30 2020 MAT metadata
+50,Wetland,湿地,analysis_class,#0064FF,GlobeLand30 2020 MAT metadata
+60,Water Body,水体,analysis_class,#0000FF,GlobeLand30 2020 MAT metadata
+70,Tundra,苔原,analysis_class,#646432,GlobeLand30 2020 MAT metadata
+80,Artificial Surfaces,人造地表,analysis_class,#FF0000,GlobeLand30 2020 MAT metadata
+90,Bareland,裸地,analysis_class,#BEBEBE,GlobeLand30 2020 MAT metadata
+100,Permanent Snow and Ice,冰川和永久积雪,analysis_class,#C8F0FF,GlobeLand30 2020 MAT metadata
+255,Sea,海水,excluded,#00C8FF,GlobeLand30 2020 MAT metadata

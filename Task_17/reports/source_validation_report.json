@@ -1,0 +1,216 @@
+{
+  "task": "Task_17",
+  "source_product": "GlobeLand30 2020",
+  "publisher": "Ministry of Natural Resources of the People's Republic of China / 自然资源部",
+  "distribution_institution": "National Geomatics Center of China / 国家基础地理信息中心",
+  "source_reported_overall_accuracy": "85.72%",
+  "source_file_count": 18,
+  "source_size_bytes": 47561716,
+  "official_class_codes": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100
+  ],
+  "special_codes": {
+    "0": "No Value/无值",
+    "255": "Sea/海水"
+  },
+  "tiles": [
+    {
+      "tile": "N48_20_2020LC030",
+      "raster": {
+        "file": "n48_20_2020lc030.tif",
+        "driver": "GTiff",
+        "width": 21431,
+        "height": 18969,
+        "dtype": "uint8",
+        "crs": "EPSG:32648",
+        "epsg": 32648,
+        "resolution": [
+          30.0,
+          30.0
+        ],
+        "bounds": [
+          178529.9122591602,
+          2206747.510029336,
+          821459.9122591602,
+          2775817.510029336
+        ],
+        "nodata_metadata": null,
+        "color_interpretation": "palette",
+        "color_table_entry_count": 256,
+        "code_counts": {
+          "0": 60913,
+          "10": 91254979,
+          "20": 226261196,
+          "30": 40149134,
+          "40": 12711425,
+          "50": 595168,
+          "60": 5022527,
+          "80": 7772460,
+          "90": 18938,
+          "255": 22677899
+        },
+        "codes": [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          80,
+          90,
+          255
+        ]
+      },
+      "mat_metadata_file": "N48_20_2020LC030_MAT.xls",
+      "metadata_transcription_policy": "原始XLS保留并校验；类别由已核验MAT转录为UTF-8 CSV",
+      "image_index": {
+        "feature_count": 168,
+        "sensor_values": [
+          "LC8"
+        ],
+        "resolution_values": [
+          30
+        ],
+        "minimum_date": "2015-01-15",
+        "maximum_date": "2017-10-28",
+        "pathrow_count": 21
+      },
+      "nanning_coverage_area_km2": 5585.9621031534525,
+      "nanning_coverage_ratio": 0.2528089990719533
+    },
+    {
+      "tile": "N49_20_2020LC030",
+      "raster": {
+        "file": "n49_20_2020lc030.tif",
+        "driver": "GTiff",
+        "width": 21430,
+        "height": 18969,
+        "dtype": "uint8",
+        "crs": "EPSG:32649",
+        "epsg": 32649,
+        "resolution": [
+          30.0,
+          30.0
+        ],
+        "bounds": [
+          178555.0875104631,
+          2206769.499886817,
+          821455.0875104631,
+          2775839.499886817
+        ],
+        "nodata_metadata": null,
+        "color_interpretation": "palette",
+        "color_table_entry_count": 256,
+        "code_counts": {
+          "0": 21457,
+          "10": 81822339,
+          "20": 158671678,
+          "30": 10643556,
+          "40": 103698,
+          "50": 624028,
+          "60": 10376360,
+          "80": 18087839,
+          "90": 43080,
+          "255": 126111635
+        },
+        "codes": [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          80,
+          90,
+          255
+        ]
+      },
+      "mat_metadata_file": "N49_20_2020LC030_MAT.xls",
+      "metadata_transcription_policy": "原始XLS保留并校验；类别由已核验MAT转录为UTF-8 CSV",
+      "image_index": {
+        "feature_count": 152,
+        "sensor_values": [
+          "LC8"
+        ],
+        "resolution_values": [
+          30
+        ],
+        "minimum_date": "2015-01-15",
+        "maximum_date": "2017-10-30",
+        "pathrow_count": 19
+      },
+      "nanning_coverage_area_km2": 19899.239466820178,
+      "nanning_coverage_ratio": 0.9005980919669909
+    }
+  ],
+  "coverage": {
+    "nanning_area_km2": 22095.58252933711,
+    "covered_area_km2": 22095.582529337145,
+    "coverage_ratio": 1.0000000000000018,
+    "uncovered_area_m2": 0.0,
+    "overlap_area_in_nanning_km2": 3389.6190406364876,
+    "county_coverages": {
+      "450102": {
+        "county_name": "兴宁区",
+        "coverage_ratio": 1.0000000000000004
+      },
+      "450103": {
+        "county_name": "青秀区",
+        "coverage_ratio": 1.0000000000000009
+      },
+      "450105": {
+        "county_name": "江南区",
+        "coverage_ratio": 0.9999999999999992
+      },
+      "450107": {
+        "county_name": "西乡塘区",
+        "coverage_ratio": 1.0000000000000002
+      },
+      "450108": {
+        "county_name": "良庆区",
+        "coverage_ratio": 0.9999999999999994
+      },
+      "450109": {
+        "county_name": "邕宁区",
+        "coverage_ratio": 1.000000000000001
+      },
+      "450110": {
+        "county_name": "武鸣区",
+        "coverage_ratio": 1.0000000000000007
+      },
+      "450123": {
+        "county_name": "隆安县",
+        "coverage_ratio": 1.0000000000000004
+      },
+      "450124": {
+        "county_name": "马山县",
+        "coverage_ratio": 1.0000000000000004
+      },
+      "450125": {
+        "county_name": "上林县",
+        "coverage_ratio": 1.0
+      },
+      "450126": {
+        "county_name": "宾阳县",
+        "coverage_ratio": 1.0
+      },
+      "450181": {
+        "county_name": "横州市",
+        "coverage_ratio": 1.0
+      }
+    }
+  },
+  "failures": [],
+  "status": "PASS"
+}

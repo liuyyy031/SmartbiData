@@ -1,0 +1,11 @@
+﻿year,source_coverage_status,canonical_source_file,event_count_policy,note
+2016,available,Task_19/data/raw/bulletins/2016年广西水旱灾害公报.pdf,derive_from_confirmed_events,可用水旱灾害公报
+2017,available,Task_19/data/raw/bulletins/2017年广西水旱灾害公报.pdf,derive_from_confirmed_events,可用水旱灾害公报
+2018,available,Task_19/data/raw/bulletins/2018年广西水旱灾害公报.pdf,derive_from_confirmed_events,可用水旱灾害公报
+2019,available,Task_19/data/raw/bulletins/2019年广西水旱灾害公报.pdf,derive_from_confirmed_events,可用水旱灾害公报
+2020,available,Task_19/data/raw/bulletins/2020年广西水旱灾害公报.pdf,derive_from_confirmed_events,可用水旱灾害公报
+2021,available,Task_19/data/raw/bulletins/2021年广西水旱灾害公报.pdf,derive_from_confirmed_events,可用水旱灾害公报
+2022,available,Task_19/data/raw/bulletins/2022年广西水旱灾害公报.pdf,derive_from_confirmed_events,可用水旱灾害公报
+2023,available,Task_19/data/raw/bulletins/2023年广西水旱灾害公报.pdf,derive_from_confirmed_events,可用水旱灾害公报
+2024,excluded_wrong_bulletin_type,,null,现有文件是水资源公报，不代替水旱灾害公报
+2025,missing,,null,未入库该年水旱灾害公报

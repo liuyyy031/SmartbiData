@@ -1,0 +1,186 @@
+{
+  "status": "PASS",
+  "check_count": 41,
+  "checks": [
+    {
+      "check": "30个事件且event_id唯一",
+      "status": "PASS"
+    },
+    {
+      "check": "直接受灾计频事件为27个",
+      "status": "PASS"
+    },
+    {
+      "check": "气象影响背景事件为3个",
+      "status": "PASS"
+    },
+    {
+      "check": "计频标志与相关性口径一致",
+      "status": "PASS"
+    },
+    {
+      "check": "全部事件已人工确认",
+      "status": "PASS"
+    },
+    {
+      "check": "31条唯一证据",
+      "status": "PASS"
+    },
+    {
+      "check": "每个事件均有证据且外键有效",
+      "status": "PASS"
+    },
+    {
+      "check": "行政区关联外键有效",
+      "status": "PASS"
+    },
+    {
+      "check": "影响指标外键有效",
+      "status": "PASS"
+    },
+    {
+      "check": "影响指标均为非负值",
+      "status": "PASS"
+    },
+    {
+      "check": "南宁专属影响指标仅2条",
+      "status": "PASS"
+    },
+    {
+      "check": "南宁专属指标空间范围合规",
+      "status": "PASS"
+    },
+    {
+      "check": "2016—2023年直接受灾频次符合人工目录",
+      "status": "PASS"
+    },
+    {
+      "check": "年度频次连续覆盖2016—2025年",
+      "status": "PASS"
+    },
+    {
+      "check": "2024—2025年缺失资料保持空值而非零值",
+      "status": "PASS"
+    },
+    {
+      "check": "2020年3个气象影响事件未混入直接频次",
+      "status": "PASS"
+    },
+    {
+      "check": "CSV与GPKG均含南宁12个县区",
+      "status": "PASS"
+    },
+    {
+      "check": "县区代码与Task_01完全一致",
+      "status": "PASS"
+    },
+    {
+      "check": "县区频次GPKG使用EPSG:4490",
+      "status": "PASS"
+    },
+    {
+      "check": "县区频次几何完整有效",
+      "status": "PASS"
+    },
+    {
+      "check": "仅良庆区有1次明确县区受灾记录",
+      "status": "PASS"
+    },
+    {
+      "check": "县区零值不解释为未发生灾害",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件大小一致：2016年广西水旱灾害公报.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件SHA256一致：2016年广西水旱灾害公报.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件大小一致：2017年广西水旱灾害公报.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件SHA256一致：2017年广西水旱灾害公报.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件大小一致：2018年广西水旱灾害公报.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件SHA256一致：2018年广西水旱灾害公报.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件大小一致：2019年广西水旱灾害公报.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件SHA256一致：2019年广西水旱灾害公报.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件大小一致：2020年广西水旱灾害公报.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件SHA256一致：2020年广西水旱灾害公报.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件大小一致：2021年广西水旱灾害公报.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件SHA256一致：2021年广西水旱灾害公报.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件大小一致：2022年广西水旱灾害公报.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件SHA256一致：2022年广西水旱灾害公报.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件大小一致：2022年广西水旱灾害公报.wps",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件SHA256一致：2022年广西水旱灾害公报.wps",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件大小一致：2023年广西水旱灾害公报.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "原始文件SHA256一致：2023年广西水旱灾害公报.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "证据表来源哈希可追溯",
+      "status": "PASS"
+    }
+  ],
+  "summary": {
+    "event_count": 30,
+    "direct_affected_event_count": 27,
+    "context_event_count": 3,
+    "evidence_count": 31,
+    "admin_relation_count": 33,
+    "impact_count": 86,
+    "county_count": 12,
+    "source_file_count": 9
+  },
+  "interpretation_constraints": [
+    "结果是公报明确记载的下限，不代表全部历史洪涝事件。",
+    "多市合计损失不得解释为南宁市损失。",
+    "县区零频次只表示现有公报未明确点名。",
+    "周边或气象影响事件不得计入南宁直接受灾频次。"
+  ]
+}

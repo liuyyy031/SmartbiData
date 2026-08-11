@@ -1,0 +1,103 @@
+{
+  "task": "Task_14",
+  "source_product": "ASTER GDEM V3",
+  "acquisition_channel": "地理空间数据云（GSCloud）",
+  "vertical_crs_metadata": null,
+  "vertical_reference_policy": "源文件未编码垂直CRS；Task_14不执行垂直基准转换",
+  "archive_count": 7,
+  "archive_total_size_bytes": 177114712,
+  "tile_ids": [
+    "ASTGTMV003_N22E107",
+    "ASTGTMV003_N22E108",
+    "ASTGTMV003_N22E109",
+    "ASTGTMV003_N23E107",
+    "ASTGTMV003_N23E108",
+    "ASTGTMV003_N23E109",
+    "ASTGTMV003_N24E108"
+  ],
+  "dem_global_minimum_m": -3,
+  "dem_global_maximum_m": 1740,
+  "nanning_coverage": {
+    "boundary_area_km2": 22095.582529337073,
+    "covered_area_km2": 22095.582529337073,
+    "uncovered_area_m2": 0.0,
+    "coverage_ratio": 1.0
+  },
+  "seam_validation": [
+    {
+      "left_tile": "ASTGTMV003_N22E107",
+      "right_tile": "ASTGTMV003_N22E108",
+      "direction": "east_west",
+      "sample_count": 3601,
+      "maximum_absolute_difference_m": 0,
+      "mean_absolute_difference_m": 0.0,
+      "equal_pixel_ratio": 1.0
+    },
+    {
+      "lower_tile": "ASTGTMV003_N22E107",
+      "upper_tile": "ASTGTMV003_N23E107",
+      "direction": "south_north",
+      "sample_count": 3601,
+      "maximum_absolute_difference_m": 0,
+      "mean_absolute_difference_m": 0.0,
+      "equal_pixel_ratio": 1.0
+    },
+    {
+      "left_tile": "ASTGTMV003_N22E108",
+      "right_tile": "ASTGTMV003_N22E109",
+      "direction": "east_west",
+      "sample_count": 3601,
+      "maximum_absolute_difference_m": 0,
+      "mean_absolute_difference_m": 0.0,
+      "equal_pixel_ratio": 1.0
+    },
+    {
+      "lower_tile": "ASTGTMV003_N22E108",
+      "upper_tile": "ASTGTMV003_N23E108",
+      "direction": "south_north",
+      "sample_count": 3601,
+      "maximum_absolute_difference_m": 0,
+      "mean_absolute_difference_m": 0.0,
+      "equal_pixel_ratio": 1.0
+    },
+    {
+      "lower_tile": "ASTGTMV003_N22E109",
+      "upper_tile": "ASTGTMV003_N23E109",
+      "direction": "south_north",
+      "sample_count": 3601,
+      "maximum_absolute_difference_m": 0,
+      "mean_absolute_difference_m": 0.0,
+      "equal_pixel_ratio": 1.0
+    },
+    {
+      "left_tile": "ASTGTMV003_N23E107",
+      "right_tile": "ASTGTMV003_N23E108",
+      "direction": "east_west",
+      "sample_count": 3601,
+      "maximum_absolute_difference_m": 0,
+      "mean_absolute_difference_m": 0.0,
+      "equal_pixel_ratio": 1.0
+    },
+    {
+      "left_tile": "ASTGTMV003_N23E108",
+      "right_tile": "ASTGTMV003_N23E109",
+      "direction": "east_west",
+      "sample_count": 3601,
+      "maximum_absolute_difference_m": 0,
+      "mean_absolute_difference_m": 0.0,
+      "equal_pixel_ratio": 1.0
+    },
+    {
+      "lower_tile": "ASTGTMV003_N23E108",
+      "upper_tile": "ASTGTMV003_N24E108",
+      "direction": "south_north",
+      "sample_count": 3601,
+      "maximum_absolute_difference_m": 0,
+      "mean_absolute_difference_m": 0.0,
+      "equal_pixel_ratio": 1.0
+    }
+  ],
+  "num_layer_policy": "仅记录分布，不作为高程、风险值或自动删值依据",
+  "failures": [],
+  "status": "PASS"
+}

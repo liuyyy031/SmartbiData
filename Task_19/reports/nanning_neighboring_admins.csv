@@ -1,0 +1,16 @@
+﻿city_name,city_adcode,county_name,county_adcode,adjacency_type,derivation_source
+防城港市,450600,上思县,450621,shares_boundary_with_nanning,Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg
+钦州市,450700,钦北区,450703,shares_boundary_with_nanning,Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg
+钦州市,450700,灵山县,450721,shares_boundary_with_nanning,Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg
+钦州市,450700,浦北县,450722,shares_boundary_with_nanning,Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg
+贵港市,450800,港南区,450803,shares_boundary_with_nanning,Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg
+贵港市,450800,覃塘区,450804,shares_boundary_with_nanning,Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg
+百色市,451000,平果市,451082,shares_boundary_with_nanning,Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg
+河池市,451200,都安瑶族自治县,451228,shares_boundary_with_nanning,Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg
+河池市,451200,大化瑶族自治县,451229,shares_boundary_with_nanning,Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg
+来宾市,451300,兴宾区,451302,shares_boundary_with_nanning,Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg
+来宾市,451300,忻城县,451321,shares_boundary_with_nanning,Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg
+崇左市,451400,江州区,451402,shares_boundary_with_nanning,Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg
+崇左市,451400,扶绥县,451421,shares_boundary_with_nanning,Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg
+崇左市,451400,大新县,451424,shares_boundary_with_nanning,Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg
+崇左市,451400,天等县,451425,shares_boundary_with_nanning,Task_06/data/boundary/processed/gx_county_boundary_projected.gpkg
