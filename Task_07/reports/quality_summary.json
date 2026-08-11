@@ -1,0 +1,32 @@
+{
+  "task_number": 7,
+  "dataset_name": "hospitals",
+  "record_count": 393,
+  "fclass_distribution": {
+    "hospital": 323,
+    "clinic": 63,
+    "doctors": 7
+  },
+  "empty_name_count": 21,
+  "invalid_geometry_count": 0,
+  "quality_summary": [
+    {
+      "dataset_name": "hospitals",
+      "input_record_count": 393,
+      "matched_single_count": 386,
+      "matched_multiple_count": 2,
+      "unmatched_count": 5,
+      "boundary_ambiguous_count": 0,
+      "empty_geometry_count": 0,
+      "source_record_id_count": 0,
+      "derived_record_id_count": 393
+    }
+  ],
+  "source": {
+    "source_file": "guangxi.gpkg",
+    "source_url": "https://download.geofabrik.de/asia/china/guangxi.html",
+    "acquired_date": "2026-07-26",
+    "snapshot_date": "not_recorded",
+    "sha256": "1bc9d0e2b3806898340621ad4722a3db23a73bb5032a9958351dea0a057c29ad"
+  }
+}

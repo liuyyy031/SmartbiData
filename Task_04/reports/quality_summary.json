@@ -1,0 +1,48 @@
+{
+  "task_number": 4,
+  "dataset_name": "roads",
+  "record_count": 211397,
+  "fclass_distribution": {
+    "residential": 48677,
+    "unclassified": 39999,
+    "service": 33941,
+    "tertiary": 20689,
+    "motorway": 19433,
+    "secondary": 13130,
+    "primary": 7723,
+    "motorway_link": 7368,
+    "trunk": 6996,
+    "track": 5680,
+    "trunk_link": 2569,
+    "primary_link": 2379,
+    "secondary_link": 1885,
+    "tertiary_link": 842,
+    "track_grade1": 41,
+    "track_grade3": 18,
+    "track_grade2": 9,
+    "track_grade5": 9,
+    "track_grade4": 9
+  },
+  "empty_name_count": 168928,
+  "invalid_geometry_count": 0,
+  "quality_summary": [
+    {
+      "dataset_name": "roads",
+      "input_record_count": 211397,
+      "matched_single_count": 199809,
+      "matched_multiple_count": 3135,
+      "unmatched_count": 8453,
+      "boundary_ambiguous_count": 0,
+      "empty_geometry_count": 0,
+      "source_record_id_count": 0,
+      "derived_record_id_count": 211397
+    }
+  ],
+  "source": {
+    "source_file": "guangxi.gpkg",
+    "source_url": "https://download.geofabrik.de/asia/china/guangxi.html",
+    "acquired_date": "2026-07-26",
+    "snapshot_date": "not_recorded",
+    "sha256": "1bc9d0e2b3806898340621ad4722a3db23a73bb5032a9958351dea0a057c29ad"
+  }
+}

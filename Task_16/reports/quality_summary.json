@@ -1,0 +1,36 @@
+{
+  "task_number": 16,
+  "dataset_name": "water",
+  "record_count": 23431,
+  "fclass_distribution": {
+    "water": 12206,
+    "stream": 4713,
+    "river": 3668,
+    "reservoir": 1087,
+    "riverbank": 736,
+    "canal": 732,
+    "drain": 289
+  },
+  "empty_name_count": 20126,
+  "invalid_geometry_count": 0,
+  "quality_summary": [
+    {
+      "dataset_name": "water",
+      "input_record_count": 23431,
+      "matched_single_count": 22140,
+      "matched_multiple_count": 828,
+      "unmatched_count": 463,
+      "boundary_ambiguous_count": 0,
+      "empty_geometry_count": 0,
+      "source_record_id_count": 0,
+      "derived_record_id_count": 23431
+    }
+  ],
+  "source": {
+    "source_file": "guangxi.gpkg",
+    "source_url": "https://download.geofabrik.de/asia/china/guangxi.html",
+    "acquired_date": "2026-07-26",
+    "snapshot_date": "not_recorded",
+    "sha256": "1bc9d0e2b3806898340621ad4722a3db23a73bb5032a9958351dea0a057c29ad"
+  }
+}
