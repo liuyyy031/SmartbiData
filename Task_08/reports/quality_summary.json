@@ -1,0 +1,33 @@
+{
+  "task_number": 8,
+  "dataset_name": "schools",
+  "record_count": 2266,
+  "fclass_distribution": {
+    "school": 1716,
+    "kindergarten": 323,
+    "college": 140,
+    "university": 87
+  },
+  "empty_name_count": 202,
+  "invalid_geometry_count": 0,
+  "quality_summary": [
+    {
+      "dataset_name": "schools",
+      "input_record_count": 2266,
+      "matched_single_count": 2236,
+      "matched_multiple_count": 25,
+      "unmatched_count": 5,
+      "boundary_ambiguous_count": 0,
+      "empty_geometry_count": 0,
+      "source_record_id_count": 0,
+      "derived_record_id_count": 2266
+    }
+  ],
+  "source": {
+    "source_file": "guangxi.gpkg",
+    "source_url": "https://download.geofabrik.de/asia/china/guangxi.html",
+    "acquired_date": "2026-07-26",
+    "snapshot_date": "not_recorded",
+    "sha256": "1bc9d0e2b3806898340621ad4722a3db23a73bb5032a9958351dea0a057c29ad"
+  }
+}
