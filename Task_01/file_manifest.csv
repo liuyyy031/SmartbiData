@@ -1,0 +1,6 @@
+﻿relative_path,category,format,crs,feature_count,size_bytes,sha256,description
+data/processed/nanning_county_boundary.gpkg,data,gpkg,EPSG:4490,12,143360,8f12d3a54ee4710e5ba32f680570a0ce394dca2872ad66d684c7822b9697f3f4,南宁市县级边界，GIS交换与关联
+data/processed/nanning_county_boundary.geojson,data,geojson,EPSG:4490,12,51778,6cc8723e5fa681cd5749f23b07ee7659bca4339c793b86a0d5a4c1242762f8be,南宁市县级边界，SmartBI与通用交换
+data/processed/nanning_county_boundary_projected.gpkg,data,gpkg,Guangxi CGCS2000 Regional Albers Equal Area,12,143360,8c89550d5ab91ddc49d2c18b52694c7792b5b6e4288ac8b654389ea0d9de9b28,南宁市县级边界，米制空间分析
+reports/quality_report.json,report,json,,,4194,7cdb7fefdbba555d64f2fb0f42bd0c6dc97c2e99ce378fc710d2143e886781ba,自动化质量验收报告
+reports/data_lineage.md,documentation,md,,,1262,99c793b0bac3472a68dbdfd8a37f214ba5dede69811549fa112295889aca9a79,Task_06到Task_01的数据血缘说明

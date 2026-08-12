@@ -1,0 +1,205 @@
+{
+  "task": "Task_15",
+  "dataset": "南宁市坡度数据",
+  "input": {
+    "file": "Task_14/data/processed/nanning_dem_30m_albers.tif",
+    "sha256": "cf219f7585fe21cd70a2a9c96713720298a179263871410dc526e2e49eb324ff",
+    "driver": "GTiff",
+    "width": 7841,
+    "height": 6745,
+    "dtype": "int16",
+    "crs": "PROJCS[\"Guangxi CGCS2000 Regional Albers Equal Area\",GEOGCS[\"China Geodetic Coordinate System 2000\",DATUM[\"China_2000\",SPHEROID[\"CGCS2000\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"1024\"]],AUTHORITY[\"EPSG\",\"1043\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4490\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",23.7025695],PARAMETER[\"longitude_of_center\",108.251719],PARAMETER[\"standard_parallel_1\",21.9133551666667],PARAMETER[\"standard_parallel_2\",25.4917838333333],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "crs_name": "Guangxi CGCS2000 Regional Albers Equal Area",
+    "transform": [
+      30.0,
+      0.0,
+      -94920.0,
+      0.0,
+      -30.0,
+      36720.0
+    ],
+    "resolution": [
+      30.0,
+      30.0
+    ],
+    "bounds": [
+      -94920.0,
+      -165630.0,
+      140310.0,
+      36720.0
+    ],
+    "nodata": -9999.0,
+    "task14_quality_status": "PASS"
+  },
+  "algorithm": {
+    "implementation": "GDAL DEMProcessing",
+    "algorithm": "Horn",
+    "neighborhood": "3x3",
+    "slope_unit": "degree",
+    "scale": 1.0,
+    "compute_edges": false,
+    "dem_conditioning": false,
+    "resampling": false
+  },
+  "output": {
+    "file": "Task_15/data/processed/nanning_slope_30m_albers.vrt",
+    "delivery_mode": "split_cog_with_vrt",
+    "file_size_bytes": 2059,
+    "file_size_limit_bytes": 99614720,
+    "cog_files": [
+      {
+        "file": "Task_15/data/processed/nanning_slope_30m_albers_north.tif",
+        "file_size_bytes": 46224969,
+        "driver": "GTiff",
+        "width": 7841,
+        "height": 3372,
+        "count": 1,
+        "dtype": "float32",
+        "crs": "PROJCS[\"Guangxi CGCS2000 Regional Albers Equal Area\",GEOGCS[\"China Geodetic Coordinate System 2000\",DATUM[\"China_2000\",SPHEROID[\"CGCS2000\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"1024\"]],AUTHORITY[\"EPSG\",\"1043\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4490\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",23.7025695],PARAMETER[\"longitude_of_center\",108.251719],PARAMETER[\"standard_parallel_1\",21.9133551666667],PARAMETER[\"standard_parallel_2\",25.4917838333333],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+        "crs_name": "Guangxi CGCS2000 Regional Albers Equal Area",
+        "transform": [
+          30.0,
+          0.0,
+          -94920.0,
+          0.0,
+          -30.0,
+          36720.0
+        ],
+        "resolution": [
+          30.0,
+          30.0
+        ],
+        "bounds": [
+          -94920.0,
+          -64440.0,
+          140310.0,
+          36720.0
+        ],
+        "nodata": -9999.0,
+        "valid_pixel_count": 10478484,
+        "nodata_pixel_count": 15961368,
+        "minimum_degrees": 0.0,
+        "maximum_degrees": 74.60555267333984,
+        "mean_degrees": 14.585635114924862,
+        "standard_deviation_degrees": 11.653946136757801,
+        "nan_count": 0,
+        "infinite_count": 0,
+        "out_of_range_count": 0,
+        "image_structure": {
+          "LAYOUT": "COG",
+          "COMPRESSION": "DEFLATE",
+          "INTERLEAVE": "BAND",
+          "OVERVIEW_RESAMPLING": "AVERAGE",
+          "PREDICTOR": "3"
+        },
+        "overview_factors": [
+          2,
+          4,
+          8,
+          16
+        ]
+      },
+      {
+        "file": "Task_15/data/processed/nanning_slope_30m_albers_south.tif",
+        "file_size_bytes": 61254697,
+        "driver": "GTiff",
+        "width": 7841,
+        "height": 3373,
+        "count": 1,
+        "dtype": "float32",
+        "crs": "PROJCS[\"Guangxi CGCS2000 Regional Albers Equal Area\",GEOGCS[\"China Geodetic Coordinate System 2000\",DATUM[\"China_2000\",SPHEROID[\"CGCS2000\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"1024\"]],AUTHORITY[\"EPSG\",\"1043\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4490\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",23.7025695],PARAMETER[\"longitude_of_center\",108.251719],PARAMETER[\"standard_parallel_1\",21.9133551666667],PARAMETER[\"standard_parallel_2\",25.4917838333333],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+        "crs_name": "Guangxi CGCS2000 Regional Albers Equal Area",
+        "transform": [
+          30.0,
+          0.0,
+          -94920.0,
+          0.0,
+          -30.0,
+          -64440.0
+        ],
+        "resolution": [
+          30.0,
+          30.0
+        ],
+        "bounds": [
+          -94920.0,
+          -165630.0,
+          140310.0,
+          -64440.0
+        ],
+        "nodata": -9999.0,
+        "valid_pixel_count": 14024537,
+        "nodata_pixel_count": 12423156,
+        "minimum_degrees": 0.0,
+        "maximum_degrees": 70.24713134765625,
+        "mean_degrees": 10.260817693216092,
+        "standard_deviation_degrees": 8.004848362879198,
+        "nan_count": 0,
+        "infinite_count": 0,
+        "out_of_range_count": 0,
+        "image_structure": {
+          "LAYOUT": "COG",
+          "COMPRESSION": "DEFLATE",
+          "INTERLEAVE": "BAND",
+          "OVERVIEW_RESAMPLING": "AVERAGE",
+          "PREDICTOR": "3"
+        },
+        "overview_factors": [
+          2,
+          4,
+          8,
+          16
+        ]
+      }
+    ],
+    "driver": "VRT",
+    "width": 7841,
+    "height": 6745,
+    "count": 1,
+    "dtype": "float32",
+    "crs": "PROJCS[\"Guangxi CGCS2000 Regional Albers Equal Area\",GEOGCS[\"China Geodetic Coordinate System 2000\",DATUM[\"China_2000\",SPHEROID[\"CGCS2000\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"1024\"]],AUTHORITY[\"EPSG\",\"1043\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4490\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",23.7025695],PARAMETER[\"longitude_of_center\",108.251719],PARAMETER[\"standard_parallel_1\",21.9133551666667],PARAMETER[\"standard_parallel_2\",25.4917838333333],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "crs_name": "Guangxi CGCS2000 Regional Albers Equal Area",
+    "transform": [
+      30.0,
+      0.0,
+      -94920.0,
+      0.0,
+      -30.0,
+      36720.0
+    ],
+    "resolution": [
+      30.0,
+      30.0
+    ],
+    "bounds": [
+      -94920.0,
+      -165630.0,
+      140310.0,
+      36720.0
+    ],
+    "nodata": -9999.0,
+    "valid_pixel_count": 24503021,
+    "nodata_pixel_count": 28384524,
+    "minimum_degrees": 0.0,
+    "maximum_degrees": 74.60555267333984,
+    "mean_degrees": 12.110284751024865,
+    "standard_deviation_degrees": 9.966607441313517,
+    "nan_count": 0,
+    "infinite_count": 0,
+    "out_of_range_count": 0,
+    "image_structure": {},
+    "overview_factors": [
+      2,
+      4,
+      8,
+      16
+    ]
+  },
+  "independent_horn_audit": {
+    "sample_count": 100,
+    "maximum_absolute_difference_degrees": 1.8088628337409318e-06,
+    "tolerance_degrees": 0.001,
+    "status": "PASS"
+  },
+  "status": "PASS"
+}

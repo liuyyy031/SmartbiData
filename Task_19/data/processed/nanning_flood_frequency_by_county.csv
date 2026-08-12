@@ -1,0 +1,13 @@
+﻿county_adcode,county_name,explicit_affected_event_count,source_year_count,first_recorded_year,last_recorded_year,frequency_semantics,zero_interpretation
+450102,兴宁区,0,0,,,lower_bound_explicit_mentions,not_explicitly_named_in_available_bulletins
+450103,青秀区,0,0,,,lower_bound_explicit_mentions,not_explicitly_named_in_available_bulletins
+450105,江南区,0,0,,,lower_bound_explicit_mentions,not_explicitly_named_in_available_bulletins
+450107,西乡塘区,0,0,,,lower_bound_explicit_mentions,not_explicitly_named_in_available_bulletins
+450108,良庆区,1,1,2017,2017,lower_bound_explicit_mentions,not_explicitly_named_in_available_bulletins
+450109,邕宁区,0,0,,,lower_bound_explicit_mentions,not_explicitly_named_in_available_bulletins
+450110,武鸣区,0,0,,,lower_bound_explicit_mentions,not_explicitly_named_in_available_bulletins
+450123,隆安县,0,0,,,lower_bound_explicit_mentions,not_explicitly_named_in_available_bulletins
+450124,马山县,0,0,,,lower_bound_explicit_mentions,not_explicitly_named_in_available_bulletins
+450125,上林县,0,0,,,lower_bound_explicit_mentions,not_explicitly_named_in_available_bulletins
+450126,宾阳县,0,0,,,lower_bound_explicit_mentions,not_explicitly_named_in_available_bulletins
+450181,横州市,0,0,,,lower_bound_explicit_mentions,not_explicitly_named_in_available_bulletins

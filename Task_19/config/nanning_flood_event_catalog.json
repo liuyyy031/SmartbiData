@@ -1,0 +1,294 @@
+{
+  "catalog_version": "1.0",
+  "scope": "2016—2023年广西水旱灾害公报中南宁直接受灾与明确影响事件",
+  "frequency_rule": "仅nanning_relevance=direct_affected且included_in_nanning_frequency=true的事件计入南宁直接受灾频次",
+  "events": [
+    {
+      "event_id": "NNFL_2016_001", "event_name": "2016年5月初暴雨洪涝", "start_date": "2016-05-03", "end_date": "2016-05-09", "date_precision": "range", "hazard_type": "rainstorm_flood", "trigger_text": "强降雨", "location_text": "南宁等7市受灾", "event_summary": "5月初强降雨导致南宁等地受灾，公报指标为多市合计。", "source_year": 2016, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2016_001_01", "pdf_page": 19, "printed_page": "15", "evidence_kind": "text", "anchor_text": "南宁市、柳州、桂林、梧州、贺州、河池、来宾等 7 个市", "evidence_summary": "公报将南宁市列入5月3日至9日受灾城市。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2016_001_01"}],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 623200, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "7市33县187乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2016_001_01"},
+        {"metric_code": "deaths", "value": 3, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "7市33县187乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2016_001_01"},
+        {"metric_code": "evacuated_population", "value": 16500, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "7市33县187乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2016_001_01"},
+        {"metric_code": "crop_affected_area", "value": 35610, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "7市33县187乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2016_001_01"},
+        {"metric_code": "collapsed_houses", "value": 951, "unit": "room", "impact_scope_level": "multi_city", "impact_scope_text": "7市33县187乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2016_001_01"},
+        {"metric_code": "direct_economic_loss", "value": 800000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "7市33县187乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2016_001_01"}
+      ]
+    },
+    {
+      "event_id": "NNFL_2016_002", "event_name": "2016年6月中旬暴雨洪涝", "start_date": "2016-06-10", "end_date": "2016-06-16", "date_precision": "range", "hazard_type": "rainstorm_flood", "trigger_text": "弱冷空气和暖湿气流", "location_text": "南宁等8市受灾", "event_summary": "6月中旬强降雨和江河超警洪水导致南宁等地受灾。", "source_year": 2016, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2016_002_01", "pdf_page": 20, "printed_page": "16", "evidence_kind": "text", "anchor_text": "6 月中旬暴雨洪涝灾害", "evidence_summary": "公报将南宁列入6月10日至16日受灾城市。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2016_002_01"}],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 545300, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "8市56县346乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2016_002_01"},
+        {"metric_code": "deaths", "value": 2, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "8市56县346乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2016_002_01"},
+        {"metric_code": "missing_population", "value": 1, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "8市56县346乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2016_002_01"},
+        {"metric_code": "crop_affected_area", "value": 43910, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "8市56县346乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2016_002_01"},
+        {"metric_code": "collapsed_houses", "value": 1477, "unit": "room", "impact_scope_level": "multi_city", "impact_scope_text": "8市56县346乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2016_002_01"},
+        {"metric_code": "direct_economic_loss", "value": 841000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "8市56县346乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2016_002_01"}
+      ]
+    },
+    {
+      "event_id": "NNFL_2016_003", "event_name": "2016年台风“银河”洪涝影响", "start_date": "2016-07-26", "end_date": "2016-07-27", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "强热带风暴银河", "location_text": "南宁等地为主要影响致灾区域", "event_summary": "银河影响期间南宁被列为主要影响致灾区域。", "source_year": 2016, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2016_003_01", "pdf_page": 18, "printed_page": "14", "evidence_kind": "table", "anchor_text": "1603 银河", "evidence_summary": "台风表将南宁列为银河主要影响致灾区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2016_003_01"}], "impacts": []
+    },
+    {
+      "event_id": "NNFL_2016_004", "event_name": "2016年台风“妮妲”洪涝影响", "start_date": "2016-08-02", "end_date": "2016-08-02", "date_precision": "day", "hazard_type": "typhoon_flood", "trigger_text": "强台风妮妲", "location_text": "南宁等地为主要影响致灾区域", "event_summary": "妮妲影响期间南宁被列为主要影响致灾区域。", "source_year": 2016, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2016_004_01", "pdf_page": 18, "printed_page": "14", "evidence_kind": "table", "anchor_text": "1604 妮妲", "evidence_summary": "台风表将南宁列为妮妲主要影响致灾区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2016_004_01"}], "impacts": []
+    },
+    {
+      "event_id": "NNFL_2016_005", "event_name": "2016年台风“莎莉嘉”洪涝影响", "start_date": "2016-10-18", "end_date": "2016-10-19", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "强台风莎莉嘉", "location_text": "南宁等地为主要影响致灾区域", "event_summary": "莎莉嘉影响期间南宁被列为主要影响致灾区域。", "source_year": 2016, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2016_005_01", "pdf_page": 18, "printed_page": "14", "evidence_kind": "table", "anchor_text": "1621 莎莉嘉", "evidence_summary": "台风表将南宁列为莎莉嘉主要影响致灾区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2016_005_01"}], "impacts": []
+    },
+
+    {
+      "event_id": "NNFL_2017_001", "event_name": "2017年台风“苗柏”洪涝影响", "start_date": "2017-06-12", "end_date": "2017-06-13", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "热带风暴苗柏", "location_text": "南宁、桂林、来宾为主要受灾区域", "event_summary": "苗柏影响期间南宁被列为主要受灾区域。", "source_year": 2017, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2017_001_01", "pdf_page": 19, "printed_page": "14", "evidence_kind": "table", "anchor_text": "1702 苗柏", "evidence_summary": "台风表将南宁列为苗柏主要受灾区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2017_001_01"}], "impacts": []
+    },
+    {
+      "event_id": "NNFL_2017_002", "event_name": "2017年8月中旬暴雨洪涝", "start_date": "2017-08-09", "end_date": "2017-08-16", "date_precision": "range", "hazard_type": "rainstorm_flood", "trigger_text": "暴雨至局地特大暴雨", "location_text": "南宁等6市受灾", "event_summary": "8月中旬强降雨和超警洪水导致南宁等地受灾。", "source_year": 2017, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2017_002_01", "pdf_page": 22, "printed_page": "17", "evidence_kind": "text", "anchor_text": "8 月中旬暴雨洪涝灾害", "evidence_summary": "公报将南宁列入8月9日至16日受灾城市。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2017_002_01"}],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 471800, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "6市38县202乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2017_002_01"},
+        {"metric_code": "deaths", "value": 9, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "6市38县202乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2017_002_01"},
+        {"metric_code": "evacuated_population", "value": 16600, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "6市38县202乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2017_002_01"},
+        {"metric_code": "crop_affected_area", "value": 29710, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "6市38县202乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2017_002_01"},
+        {"metric_code": "collapsed_houses", "value": 579, "unit": "room", "impact_scope_level": "multi_city", "impact_scope_text": "6市38县202乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2017_002_01"},
+        {"metric_code": "direct_economic_loss", "value": 1296000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "6市38县202乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2017_002_01"},
+        {"metric_code": "water_facility_loss", "value": 300000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "6市38县202乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2017_002_01"}
+      ]
+    },
+    {
+      "event_id": "NNFL_2017_003", "event_name": "2017年台风“天鸽”及良庆区南晓镇山洪", "start_date": "2017-08-22", "end_date": "2017-08-26", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "强台风天鸽引发强降雨", "location_text": "南宁市受灾，良庆区南晓镇发生山洪", "event_summary": "天鸽影响期间南宁受灾，良庆区南晓镇发生建镇以来最大洪水。", "source_year": 2017, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [
+        {"evidence_id": "EVID_NNFL_2017_003_01", "pdf_page": 23, "printed_page": "18", "evidence_kind": "text", "anchor_text": "南宁市良庆区南晓镇 317 毫米", "evidence_summary": "天鸽过程中南宁被列入受灾城市，南晓镇为最大降雨点。"},
+        {"evidence_id": "EVID_NNFL_2017_003_02", "pdf_page": 37, "printed_page": "32", "evidence_kind": "text", "anchor_text": "良庆区南晓镇山洪灾害防御", "evidence_summary": "公报专题记载南晓镇街道和村庄被淹、人员转移。"}
+      ],
+      "admins": [
+        {"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2017_003_01"},
+        {"admin_level": "county", "admin_name": "良庆区", "adcode": "450108", "relation_type": "affected", "spatial_precision": "county", "evidence_id": "EVID_NNFL_2017_003_02"},
+        {"admin_level": "township", "admin_name": "南晓镇", "adcode": null, "relation_type": "affected", "spatial_precision": "township", "evidence_id": "EVID_NNFL_2017_003_02"}
+      ],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 328700, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "7市35县258乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2017_003_01"},
+        {"metric_code": "crop_affected_area", "value": 12920, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "7市35县258乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2017_003_01"},
+        {"metric_code": "collapsed_houses", "value": 281, "unit": "room", "impact_scope_level": "multi_city", "impact_scope_text": "7市35县258乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2017_003_01"},
+        {"metric_code": "direct_economic_loss", "value": 464000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "7市35县258乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2017_003_01"},
+        {"metric_code": "water_facility_loss", "value": 309000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "7市35县258乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2017_003_01"},
+        {"metric_code": "affected_population", "value": 15000, "unit": "person", "impact_scope_level": "nanning_county", "impact_scope_text": "良庆区南晓镇", "is_nanning_specific": true, "evidence_id": "EVID_NNFL_2017_003_02"},
+        {"metric_code": "evacuated_population", "value": 1130, "unit": "person", "impact_scope_level": "nanning_county", "impact_scope_text": "良庆区南晓镇已安全转移安置", "is_nanning_specific": true, "evidence_id": "EVID_NNFL_2017_003_02"}
+      ]
+    },
+    {
+      "event_id": "NNFL_2017_004", "event_name": "2017年台风“帕卡”洪涝影响", "start_date": "2017-08-27", "end_date": "2017-08-27", "date_precision": "day", "hazard_type": "typhoon_flood", "trigger_text": "台风帕卡", "location_text": "南宁等地为主要受灾区域", "event_summary": "帕卡影响期间南宁被列为主要受灾区域。", "source_year": 2017, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2017_004_01", "pdf_page": 19, "printed_page": "14", "evidence_kind": "table", "anchor_text": "1714 帕卡", "evidence_summary": "台风表将南宁列为帕卡主要受灾区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2017_004_01"}], "impacts": []
+    },
+    {
+      "event_id": "NNFL_2017_005", "event_name": "2017年台风“卡努”洪涝影响", "start_date": "2017-10-16", "end_date": "2017-10-16", "date_precision": "day", "hazard_type": "typhoon_flood", "trigger_text": "强热带风暴卡努", "location_text": "南宁等地为主要受灾区域", "event_summary": "卡努影响期间南宁被列为主要受灾区域。", "source_year": 2017, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2017_005_01", "pdf_page": 19, "printed_page": "14", "evidence_kind": "table", "anchor_text": "1720 卡努", "evidence_summary": "台风表将南宁列为卡努主要受灾区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2017_005_01"}], "impacts": []
+    },
+
+    {
+      "event_id": "NNFL_2018_001", "event_name": "2018年5月上旬暴雨洪涝", "start_date": "2018-05-07", "end_date": "2018-05-11", "date_precision": "range", "hazard_type": "rainstorm_flood", "trigger_text": "高空槽、切变线和弱冷空气", "location_text": "南宁等5市受灾", "event_summary": "5月上旬强降雨和江河洪水导致南宁等地受灾。", "source_year": 2018, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2018_001_01", "pdf_page": 18, "printed_page": "14", "evidence_kind": "text", "anchor_text": "5 月上旬玉林等地暴雨洪涝灾害", "evidence_summary": "公报将南宁列入5月7日至11日受灾城市。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2018_001_01"}],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 123100, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "5市18县101乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_001_01"},
+        {"metric_code": "evacuated_population", "value": 1400, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "5市18县101乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_001_01"},
+        {"metric_code": "deaths", "value": 2, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "5市18县101乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_001_01"},
+        {"metric_code": "crop_affected_area", "value": 7830, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "5市18县101乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_001_01"},
+        {"metric_code": "collapsed_houses", "value": 139, "unit": "room", "impact_scope_level": "multi_city", "impact_scope_text": "5市18县101乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_001_01"},
+        {"metric_code": "direct_economic_loss", "value": 157000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "5市18县101乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_001_01"}
+      ]
+    },
+    {
+      "event_id": "NNFL_2018_002", "event_name": "2018年6月下旬暴雨洪涝", "start_date": "2018-06-21", "end_date": "2018-06-26", "date_precision": "range", "hazard_type": "rainstorm_flood", "trigger_text": "持续强降雨", "location_text": "南宁等6市受灾；郁江邕宁区蒲庙河段和新江河超警", "event_summary": "6月下旬强降雨导致南宁受灾，邕宁区有明确超警河段记录。", "source_year": 2018, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2018_002_01", "pdf_page": 18, "printed_page": "14", "evidence_kind": "text", "anchor_text": "6 月下旬防城港等地暴雨洪涝灾害", "evidence_summary": "公报将南宁列入受灾城市，并记载邕宁区河段超警。"}],
+      "admins": [
+        {"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2018_002_01"},
+        {"admin_level": "county", "admin_name": "邕宁区", "adcode": "450109", "relation_type": "monitoring_location", "spatial_precision": "county", "evidence_id": "EVID_NNFL_2018_002_01"}
+      ],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 146500, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "6市24县141乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_002_01"},
+        {"metric_code": "evacuated_population", "value": 600, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "6市24县141乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_002_01"},
+        {"metric_code": "deaths", "value": 6, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "6市24县141乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_002_01"},
+        {"metric_code": "crop_affected_area", "value": 12010, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "6市24县141乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_002_01"},
+        {"metric_code": "collapsed_houses", "value": 100, "unit": "room", "impact_scope_level": "multi_city", "impact_scope_text": "6市24县141乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_002_01"},
+        {"metric_code": "direct_economic_loss", "value": 181000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "6市24县141乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_002_01"}
+      ]
+    },
+    {
+      "event_id": "NNFL_2018_003", "event_name": "2018年台风“山神”洪涝影响", "start_date": "2018-07-17", "end_date": "2018-07-19", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "热带风暴山神", "location_text": "南宁等地为主要影响区域", "event_summary": "山神影响期间南宁被列为主要影响区域。", "source_year": 2018, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2018_003_01", "pdf_page": 17, "printed_page": "13", "evidence_kind": "table", "anchor_text": "201809 山神", "evidence_summary": "台风表将南宁列为山神主要影响区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2018_003_01"}], "impacts": []
+    },
+    {
+      "event_id": "NNFL_2018_004", "event_name": "2018年台风“贝碧嘉”洪涝影响", "start_date": "2018-08-10", "end_date": "2018-08-16", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "台风贝碧嘉", "location_text": "南宁、桂林、崇左为主要影响区域", "event_summary": "贝碧嘉影响期间南宁被列为主要影响区域。", "source_year": 2018, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2018_004_01", "pdf_page": 17, "printed_page": "13", "evidence_kind": "table", "anchor_text": "201816 贝碧嘉", "evidence_summary": "台风表将南宁列为贝碧嘉主要影响区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2018_004_01"}], "impacts": []
+    },
+    {
+      "event_id": "NNFL_2018_005", "event_name": "2018年8月下旬南宁等地暴雨洪涝", "start_date": "2018-08-28", "end_date": "2018-09-03", "date_precision": "range", "hazard_type": "rainstorm_flood", "trigger_text": "大雨至局地特大暴雨", "location_text": "南宁等5市受灾", "event_summary": "8月下旬至9月初强降雨和江河洪水导致南宁等地受灾。", "source_year": 2018, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2018_005_01", "pdf_page": 19, "printed_page": "15", "evidence_kind": "text", "anchor_text": "8 月下旬南宁等地暴雨洪涝灾害", "evidence_summary": "公报将南宁列入8月28日至9月3日受灾城市。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2018_005_01"}],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 125800, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "5市15县86乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_005_01"},
+        {"metric_code": "evacuated_population", "value": 3800, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "5市15县86乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_005_01"},
+        {"metric_code": "crop_affected_area", "value": 3390, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "5市15县86乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_005_01"},
+        {"metric_code": "collapsed_houses", "value": 200, "unit": "room", "impact_scope_level": "multi_city", "impact_scope_text": "5市15县86乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_005_01"},
+        {"metric_code": "direct_economic_loss", "value": 148000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "5市15县86乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_005_01"}
+      ]
+    },
+    {
+      "event_id": "NNFL_2018_006", "event_name": "2018年台风“山竹”洪涝灾害", "start_date": "2018-09-16", "end_date": "2018-09-18", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "强台风山竹", "location_text": "南宁等8市受灾", "event_summary": "山竹影响期间南宁等地受灾。", "source_year": 2018, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2018_006_01", "pdf_page": 19, "printed_page": "15", "evidence_kind": "text", "anchor_text": "201822 号强台风“山竹”灾害", "evidence_summary": "公报将南宁列入山竹过程受灾城市。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2018_006_01"}],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 710900, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "8市39县363乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_006_01"},
+        {"metric_code": "evacuated_population", "value": 204700, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "8市39县363乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_006_01"},
+        {"metric_code": "crop_affected_area", "value": 71730, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "8市39县363乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_006_01"},
+        {"metric_code": "collapsed_houses", "value": 216, "unit": "room", "impact_scope_level": "multi_city", "impact_scope_text": "8市39县363乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_006_01"},
+        {"metric_code": "direct_economic_loss", "value": 408000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "8市39县363乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2018_006_01"}
+      ]
+    },
+
+    {
+      "event_id": "NNFL_2019_001", "event_name": "2019年台风“韦帕”洪涝灾害", "start_date": "2019-07-31", "end_date": "2019-08-04", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "台风韦帕", "location_text": "南宁等地为主要影响区域", "event_summary": "韦帕影响期间南宁被列为主要影响区域。", "source_year": 2019, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2019_001_01", "pdf_page": 17, "printed_page": "12", "evidence_kind": "table", "anchor_text": "201907 韦帕", "evidence_summary": "台风表将南宁列为韦帕主要影响区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2019_001_01"}], "impacts": []
+    },
+    {
+      "event_id": "NNFL_2019_002", "event_name": "2019年台风“杨柳”洪涝灾害", "start_date": "2019-08-29", "end_date": "2019-08-31", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "台风杨柳残留云系和热带辐合带", "location_text": "南宁等地为主要影响区域", "event_summary": "杨柳影响期间南宁被列为主要影响区域。", "source_year": 2019, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2019_002_01", "pdf_page": 17, "printed_page": "12", "evidence_kind": "table", "anchor_text": "201912 杨柳", "evidence_summary": "台风表将南宁列为杨柳主要影响区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2019_002_01"}], "impacts": []
+    },
+
+    {
+      "event_id": "NNFL_2020_001", "event_name": "2020年5月底至6月上旬强降雨洪水", "start_date": "2020-05-29", "end_date": "2020-06-10", "date_precision": "range", "hazard_type": "rainstorm_flood", "trigger_text": "连续性强降雨", "location_text": "南宁等10市53县受灾", "event_summary": "年度主要强降雨洪水过程导致南宁等地受灾。", "source_year": 2020, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2020_001_01", "pdf_page": 19, "printed_page": "15", "evidence_kind": "text", "anchor_text": "北海、百色、南宁、贵港等 10 市", "evidence_summary": "灾情段明确将南宁列入5月29日至6月10日受灾城市。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2020_001_01"}],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 1754800, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "10市53县263乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2020_001_01"},
+        {"metric_code": "evacuated_population", "value": 78900, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "10市53县263乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2020_001_01"},
+        {"metric_code": "crop_affected_area", "value": 43280, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "10市53县263乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2020_001_01"},
+        {"metric_code": "direct_economic_loss", "value": 3590000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "10市53县263乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2020_001_01"},
+        {"metric_code": "water_facility_loss", "value": 1693000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "10市53县263乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2020_001_01"}
+      ]
+    },
+    {
+      "event_id": "NNFL_2020_002", "event_name": "2020年台风“森拉克”对南宁的气象影响", "start_date": "2020-08-01", "end_date": "2020-08-03", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "台风森拉克外围环流", "location_text": "南宁列于主要影响区域，但公报未将南宁列入该年台风受灾6市", "event_summary": "保留为影响南宁的气象上下文，不计入南宁直接受灾频次。", "source_year": 2020, "nanning_relevance": "meteorological_influence", "included_in_nanning_frequency": false, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2020_002_01", "pdf_page": 14, "printed_page": "10", "evidence_kind": "table", "anchor_text": "202003 森拉克", "evidence_summary": "台风表将南宁列为森拉克主要影响区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "meteorological_influence", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2020_002_01"}], "impacts": []
+    },
+    {
+      "event_id": "NNFL_2020_003", "event_name": "2020年台风“海高斯”对南宁的气象影响", "start_date": "2020-08-19", "end_date": "2020-08-20", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "台风海高斯", "location_text": "南宁有大暴雨乡镇记录，但公报未将南宁列入该年台风受灾6市", "event_summary": "保留为影响南宁的气象上下文，不计入南宁直接受灾频次。", "source_year": 2020, "nanning_relevance": "meteorological_influence", "included_in_nanning_frequency": false, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2020_003_01", "pdf_page": 14, "printed_page": "10", "evidence_kind": "table", "anchor_text": "202007 海高斯", "evidence_summary": "台风表记载南宁有大暴雨乡镇。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "meteorological_influence", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2020_003_01"}], "impacts": []
+    },
+    {
+      "event_id": "NNFL_2020_004", "event_name": "2020年台风“浪卡”对南宁的气象影响", "start_date": "2020-10-13", "end_date": "2020-10-15", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "台风浪卡和冷空气", "location_text": "南宁有200至300毫米降雨乡镇记录，但公报未将南宁列入该年台风受灾6市", "event_summary": "保留为影响南宁的气象上下文，不计入南宁直接受灾频次。", "source_year": 2020, "nanning_relevance": "meteorological_influence", "included_in_nanning_frequency": false, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2020_004_01", "pdf_page": 14, "printed_page": "10", "evidence_kind": "table", "anchor_text": "202016 浪卡", "evidence_summary": "台风表记载南宁有200至300毫米降雨乡镇。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "meteorological_influence", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2020_004_01"}], "impacts": []
+    },
+
+    {
+      "event_id": "NNFL_2021_001", "event_name": "2021年6月下旬至7月上旬暴雨洪涝", "start_date": "2021-06-27", "end_date": "2021-07-03", "date_precision": "range", "hazard_type": "rainstorm_flood", "trigger_text": "持续强降雨", "location_text": "南宁等7市36县受灾", "event_summary": "年度最大强降雨过程导致南宁等地受灾。", "source_year": 2021, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2021_001_01", "pdf_page": 16, "printed_page": "12", "evidence_kind": "text", "anchor_text": "桂林、柳州、河池、南宁、钦州、百色", "evidence_summary": "灾情段明确将南宁列入6月27日至7月3日受灾城市。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2021_001_01"}],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 175100, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "7市36县193乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_001_01"},
+        {"metric_code": "evacuated_population", "value": 17400, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "7市36县193乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_001_01"},
+        {"metric_code": "crop_affected_area", "value": 6320, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "7市36县193乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_001_01"},
+        {"metric_code": "direct_economic_loss", "value": 647000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "7市36县193乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_001_01"},
+        {"metric_code": "water_facility_loss", "value": 348000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "7市36县193乡镇街道合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_001_01"}
+      ]
+    },
+    {
+      "event_id": "NNFL_2021_002", "event_name": "2021年台风“查帕卡”洪涝灾害", "start_date": "2021-07-21", "end_date": "2021-07-23", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "台风查帕卡", "location_text": "南宁等地为受灾区域", "event_summary": "查帕卡穿过横州和南宁城区，南宁被列为受灾区域。", "source_year": 2021, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2021_002_01", "pdf_page": 13, "printed_page": "9", "evidence_kind": "table", "anchor_text": "202107 查帕卡", "evidence_summary": "致灾台风表将南宁列为查帕卡受灾区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2021_002_01"}],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 25600, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "台风查帕卡过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_002_01"},
+        {"metric_code": "crop_affected_area", "value": 1200, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "台风查帕卡过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_002_01"},
+        {"metric_code": "direct_economic_loss", "value": 76000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "台风查帕卡过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_002_01"},
+        {"metric_code": "water_facility_loss", "value": 67000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "台风查帕卡过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_002_01"}
+      ]
+    },
+    {
+      "event_id": "NNFL_2021_003", "event_name": "2021年台风“狮子山”洪涝灾害", "start_date": "2021-10-08", "end_date": "2021-10-11", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "台风狮子山", "location_text": "南宁等地为受灾区域", "event_summary": "狮子山影响期间南宁被列为受灾区域。", "source_year": 2021, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2021_003_01", "pdf_page": 14, "printed_page": "10", "evidence_kind": "table", "anchor_text": "202117 狮子山", "evidence_summary": "致灾台风表将南宁列为狮子山受灾区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2021_003_01"}],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 74200, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "台风狮子山过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_003_01"},
+        {"metric_code": "crop_affected_area", "value": 3940, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "台风狮子山过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_003_01"},
+        {"metric_code": "direct_economic_loss", "value": 165000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "台风狮子山过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_003_01"},
+        {"metric_code": "water_facility_loss", "value": 138000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "台风狮子山过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_003_01"}
+      ]
+    },
+    {
+      "event_id": "NNFL_2021_004", "event_name": "2021年台风“圆规”洪涝灾害", "start_date": "2021-10-13", "end_date": "2021-10-15", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "台风圆规", "location_text": "南宁等地为受灾区域", "event_summary": "圆规被公报列为致灾台风及年度洪涝场次，南宁为受灾区域。", "source_year": 2021, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2021_004_01", "pdf_page": 14, "printed_page": "10", "evidence_kind": "table", "anchor_text": "202118 圆规", "evidence_summary": "致灾台风表将南宁列为圆规受灾区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2021_004_01"}],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 12800, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "台风圆规过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_004_01"},
+        {"metric_code": "crop_affected_area", "value": 1490, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "台风圆规过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_004_01"},
+        {"metric_code": "direct_economic_loss", "value": 65000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "台风圆规过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_004_01"},
+        {"metric_code": "water_facility_loss", "value": 57000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "台风圆规过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2021_004_01"}
+      ]
+    },
+
+    {
+      "event_id": "NNFL_2022_001", "event_name": "2022年台风“木兰”洪涝灾害", "start_date": "2022-08-09", "end_date": "2022-08-12", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "台风木兰", "location_text": "南宁、梧州、防城港为受灾区域", "event_summary": "木兰被公报列为致灾台风和年度洪涝场次，南宁为受灾区域。", "source_year": 2022, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2022_001_01", "pdf_page": 15, "printed_page": "12", "evidence_kind": "table", "anchor_text": "202207 木兰", "evidence_summary": "致灾台风表将南宁列为木兰受灾区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2022_001_01"}],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 18500, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "台风木兰过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2022_001_01"},
+        {"metric_code": "crop_affected_area", "value": 460, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "台风木兰过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2022_001_01"},
+        {"metric_code": "direct_economic_loss", "value": 32000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "台风木兰过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2022_001_01"},
+        {"metric_code": "water_facility_loss", "value": 22000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "台风木兰过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2022_001_01"}
+      ]
+    },
+
+    {
+      "event_id": "NNFL_2023_001", "event_name": "2023年台风“泰利”洪涝灾害", "start_date": "2023-07-17", "end_date": "2023-07-20", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "台风泰利", "location_text": "南宁等地为受灾区域", "event_summary": "泰利被公报列为致灾台风和年度洪涝场次，南宁为受灾区域。", "source_year": 2023, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2023_001_01", "pdf_page": 13, "printed_page": "8", "evidence_kind": "table", "anchor_text": "202304 泰利", "evidence_summary": "致灾台风表将南宁列为泰利受灾区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2023_001_01"}],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 94300, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "台风泰利过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2023_001_01"},
+        {"metric_code": "crop_affected_area", "value": 5960, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "台风泰利过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2023_001_01"},
+        {"metric_code": "direct_economic_loss", "value": 50000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "台风泰利过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2023_001_01"},
+        {"metric_code": "water_facility_loss", "value": 45000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "台风泰利过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2023_001_01"}
+      ]
+    },
+    {
+      "event_id": "NNFL_2023_002", "event_name": "2023年台风“苏拉”洪涝灾害", "start_date": "2023-09-02", "end_date": "2023-09-05", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "台风苏拉", "location_text": "南宁等地为受灾区域", "event_summary": "苏拉被公报列为致灾台风和年度洪涝场次，南宁为受灾区域。", "source_year": 2023, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2023_002_01", "pdf_page": 14, "printed_page": "9", "evidence_kind": "table", "anchor_text": "202309 苏拉", "evidence_summary": "致灾台风表将南宁列为苏拉受灾区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2023_002_01"}],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 14600, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "台风苏拉过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2023_002_01"},
+        {"metric_code": "crop_affected_area", "value": 970, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "台风苏拉过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2023_002_01"},
+        {"metric_code": "direct_economic_loss", "value": 233000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "台风苏拉过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2023_002_01"},
+        {"metric_code": "water_facility_loss", "value": 225000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "台风苏拉过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2023_002_01"}
+      ]
+    },
+    {
+      "event_id": "NNFL_2023_003", "event_name": "2023年台风“海葵”洪涝灾害", "start_date": "2023-09-08", "end_date": "2023-09-14", "date_precision": "range", "hazard_type": "typhoon_flood", "trigger_text": "台风海葵残涡环流、季风和冷空气", "location_text": "南宁等地为受灾区域", "event_summary": "海葵被公报列为致灾台风和年度洪涝场次，南宁为受灾区域。", "source_year": 2023, "nanning_relevance": "direct_affected", "included_in_nanning_frequency": true, "review_status": "confirmed",
+      "evidence": [{"evidence_id": "EVID_NNFL_2023_003_01", "pdf_page": 14, "printed_page": "9", "evidence_kind": "table", "anchor_text": "202311 海葵", "evidence_summary": "致灾台风表将南宁列为海葵受灾区域。"}],
+      "admins": [{"admin_level": "city", "admin_name": "南宁市", "adcode": "450100", "relation_type": "affected", "spatial_precision": "city", "evidence_id": "EVID_NNFL_2023_003_01"}],
+      "impacts": [
+        {"metric_code": "affected_population", "value": 45800, "unit": "person", "impact_scope_level": "multi_city", "impact_scope_text": "台风海葵过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2023_003_01"},
+        {"metric_code": "crop_affected_area", "value": 6290, "unit": "hectare", "impact_scope_level": "multi_city", "impact_scope_text": "台风海葵过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2023_003_01"},
+        {"metric_code": "direct_economic_loss", "value": 188000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "台风海葵过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2023_003_01"},
+        {"metric_code": "water_facility_loss", "value": 161000000, "unit": "CNY", "impact_scope_level": "multi_city", "impact_scope_text": "台风海葵过程广西合计", "is_nanning_specific": false, "evidence_id": "EVID_NNFL_2023_003_01"}
+      ]
+    }
+  ]
+}
