@@ -1,0 +1,13 @@
+﻿district_code,affected_population_minus20_rank,affected_population_plus20_rank,facility_impact_minus20_rank,facility_impact_plus20_rank,flood_severity_minus20_rank,flood_severity_plus20_rank,road_disruption_minus20_rank,road_disruption_plus20_rank,affected_settlements_minus20_rank,affected_settlements_plus20_rank,rescue_distance_minus20_rank,rescue_distance_plus20_rank,rank_min,rank_max,stability,event_id,analysis_date,data_type,calculation_version,data_source,source_commit
+450102,5,5,5,5,5,5,5,5,5,5,5,5,5,5,stable,nanning_flood_20260706_0707,2026-07-07,real,dispatch_v3,SmartbiData fixed shared inputs,074f2c6841becf074f14d90e06a2e9672972f1ec
+450103,3,3,3,3,3,3,3,3,3,3,3,3,3,3,stable,nanning_flood_20260706_0707,2026-07-07,real,dispatch_v3,SmartbiData fixed shared inputs,074f2c6841becf074f14d90e06a2e9672972f1ec
+450105,5,5,5,5,5,5,5,5,5,5,5,5,5,5,stable,nanning_flood_20260706_0707,2026-07-07,real,dispatch_v3,SmartbiData fixed shared inputs,074f2c6841becf074f14d90e06a2e9672972f1ec
+450107,5,5,5,5,5,5,5,5,5,5,5,5,5,5,stable,nanning_flood_20260706_0707,2026-07-07,real,dispatch_v3,SmartbiData fixed shared inputs,074f2c6841becf074f14d90e06a2e9672972f1ec
+450108,5,5,5,5,5,5,5,5,5,5,5,5,5,5,stable,nanning_flood_20260706_0707,2026-07-07,real,dispatch_v3,SmartbiData fixed shared inputs,074f2c6841becf074f14d90e06a2e9672972f1ec
+450109,5,5,5,5,5,5,5,5,5,5,5,5,5,5,stable,nanning_flood_20260706_0707,2026-07-07,real,dispatch_v3,SmartbiData fixed shared inputs,074f2c6841becf074f14d90e06a2e9672972f1ec
+450110,5,5,5,5,5,5,5,5,5,5,5,5,5,5,stable,nanning_flood_20260706_0707,2026-07-07,real,dispatch_v3,SmartbiData fixed shared inputs,074f2c6841becf074f14d90e06a2e9672972f1ec
+450123,5,5,5,5,5,5,5,5,5,5,5,5,5,5,stable,nanning_flood_20260706_0707,2026-07-07,real,dispatch_v3,SmartbiData fixed shared inputs,074f2c6841becf074f14d90e06a2e9672972f1ec
+450124,5,5,5,5,5,5,5,5,5,5,5,5,5,5,stable,nanning_flood_20260706_0707,2026-07-07,real,dispatch_v3,SmartbiData fixed shared inputs,074f2c6841becf074f14d90e06a2e9672972f1ec
+450125,4,4,4,4,4,4,4,4,4,4,4,4,4,4,stable,nanning_flood_20260706_0707,2026-07-07,real,dispatch_v3,SmartbiData fixed shared inputs,074f2c6841becf074f14d90e06a2e9672972f1ec
+450126,1,1,1,1,1,1,1,1,1,1,1,1,1,1,stable,nanning_flood_20260706_0707,2026-07-07,real,dispatch_v3,SmartbiData fixed shared inputs,074f2c6841becf074f14d90e06a2e9672972f1ec
+450181,2,2,2,2,2,2,2,2,2,2,2,2,2,2,stable,nanning_flood_20260706_0707,2026-07-07,real,dispatch_v3,SmartbiData fixed shared inputs,074f2c6841becf074f14d90e06a2e9672972f1ec

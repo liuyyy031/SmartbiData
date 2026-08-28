@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "verified_shelters",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "osm_id": "12477526", "code": 2204, "fclass": "park", "name": "南湖公园", "shelter_id": "shelter_nn_nanhu_001", "shelter_name": "南湖公园应急避难场所", "source_layer": "gis_osm_pois_a_free", "capacity_persons": 200000, "effective_area_sqm": 360000, "disaster_scope": "地震;洪水;火灾", "completion_year": 2011, "operational_open_status": "not_confirmed_for_event", "capacity_source_url": "https://news.weather.com.cn/1326558.shtml", "geometry_source": "OpenStreetMap polygon representative point", "data_source": "南宁新闻网公开报道;OpenStreetMap", "data_type": "real", "distance_to_flood_m": 41634.373000628126, "flood_exposure_status": "outside_flood", "eligible_for_assignment": true, "event_id": "nanning_flood_20260706_0707", "analysis_date": "2026-07-07", "calculation_version": "dispatch_v3", "source_commit": "074f2c6841becf074f14d90e06a2e9672972f1ec" }, "geometry": { "type": "Point", "coordinates": [ 108.354946580364484, 22.81355202827303 ] } }
+]
+}
